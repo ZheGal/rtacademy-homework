@@ -1,9 +1,13 @@
 // jQuery
 
+let countriesLink = window.location.href.split('/');
+    countriesLink[countriesLink.length - 1] = 'countries.json';
+let countries = countriesLink.join('/');
+
 $.ajax(
     {
         'method': 'GET',
-        'url': 'https://zhegal.g2.rtacademy.net/countries.json',
+        'url': countries,
         'dataType': 'json',
         'success': function( jsonContents )
         {

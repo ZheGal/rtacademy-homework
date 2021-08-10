@@ -1,6 +1,6 @@
 
 (async function() {
-    let menuUrl = 'https://zhegal.g2.rtacademy.net/js_works_menu.json';
+    const menuUrl = await `http://${location.hostname}/js/js_works_menu.json`
     let response = await fetch( menuUrl );
     if( response.ok ) {
         let jsonContents = await response.json();

@@ -1,7 +1,12 @@
 // Fetch
 
 (async function() {
-    let response = await fetch( 'https://zhegal.g2.rtacademy.net/countries.json' );
+
+    let countriesLink = window.location.href.split('/');
+        countriesLink[countriesLink.length - 1] = 'countries.json';
+    let countries = countriesLink.join('/');
+
+    let response = await fetch( countries );
     if( response.ok ) {
         let jsonContents = await response.json();
         
