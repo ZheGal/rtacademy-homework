@@ -18,7 +18,7 @@
         <h1>RTAcademy Homework</h1>
     </header>
     <section id="mainSection">
-        <!-- ///////// -->
+        <!-- ///// test //// -->
     </section>
     <footer id="footer">
         <a href="https://rtacademy.net/">https://rtacademy.net/</a>
