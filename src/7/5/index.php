@@ -37,7 +37,7 @@ if (isset($_GET['city'])) {
 
 <body>
 
-    <form action="" method="GET">
+    <form>
         <div>
             <label for="cityname">Назва міста:</label>
             <input type="text" name="city" id="cityname" <?php if (isset($_GET['city'])) echo " value=\"{$value}\"" ?>>
