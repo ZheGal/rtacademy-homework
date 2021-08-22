@@ -1,3 +1,2 @@
-rtacademy_database_data/ddl_recovery.log
-rtacademy_database_data/ib_logfile0
-rtacademy_database_data/ibtmp1
+rtacademy_database_data/ddl*
+rtacademy_database_data/ib*
