@@ -9,8 +9,12 @@ function testFunc() {
     $a = 'test';
     global $b;
     $c = '123';
-    print_r($GLOBALS);
-    print_r(get_defined_vars());
+    $result = [
+        $GLOBALS,
+        get_defined_vars()
+    ];
+    return $result;
 }
 
-testFunc();
+$array = testFunc();
+print_r($array);
