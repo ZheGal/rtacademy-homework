@@ -1,13 +1,16 @@
 <?php
-if (isset($_GET['city']) && empty($_GET['city'])) {
-    $uri = explode('?', $_SERVER['REQUEST_URI'])[0];
-    header("Location:{$uri}");
+
+function cityNameCapitalize(string $string): string
+{
+    $string = trim($string);
+    $firstUpper = mb_substr(mb_strtoupper($string), 0, 1);
+    $allLower = mb_substr(ucfirst(mb_strtolower($string)), 1);
+    return $firstUpper . $allLower;
 }
 
-if (isset($_GET['city'])) {
-    $value = htmlspecialchars($_GET['city']);
-    $city = cityNameCapitalize(strip_tags($_GET['city']));
-}
+$value = (isset($_GET['city'])) ? htmlspecialchars($_GET['city']) : '';
+$city = (isset($_GET['city'])) ? cityNameCapitalize(strip_tags($_GET['city'])) : '';
+
 ?>
 <!DOCTYPE html>
 <html lang="uk">
@@ -40,31 +43,19 @@ if (isset($_GET['city'])) {
     <form>
         <div>
             <label for="cityname">Назва міста:</label>
-            <input type="text" name="city" id="cityname" <?php if (isset($_GET['city'])) echo " value=\"{$value}\"" ?>>
+            <input type="text" name="city" id="cityname" value="<?=$value?>">
         </div>
         <div><button type="submit">Надіслати</button></div>
     </form>
 
     <?php if (isset($city) && !empty($city)) : ?>
-
         <hr />
-
         <div style="width:100%;max-width:500px;margin:0 auto;">
             <h2>Результат:</h2>
             <p><?=$city?></p>
         </div>
-
     <?php endif; ?>
 
 </body>
 
 </html>
-<?php
-function cityNameCapitalize(string $string): string
-{
-    $string = trim($string);
-    $firstUpper = mb_substr(mb_strtoupper($string), 0, 1);
-    $allLower = mb_substr(ucfirst(mb_strtolower($string)), 1);
-    return $firstUpper . $allLower;
-}
-?>
