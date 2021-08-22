@@ -1,2 +1,4 @@
 rtacademy_database_data/ddl*
 rtacademy_database_data/ib*
+src/data/cities.html
+src/data/cities.json
