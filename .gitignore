@@ -1,4 +1,9 @@
 rtacademy_database_data/ddl*
 rtacademy_database_data/ib*
+rtacademy_database_data/aria_log_control
+rtacademy_database_data/aria_log.00000001
+rtacademy_database_data/ddl_recovery-backup.log
+rtacademy_database_data/ib_buffer_pool
+rtacademy_database_data/ibdata1
 src/data/cities.html
 src/data/cities.json
