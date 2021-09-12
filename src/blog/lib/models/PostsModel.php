@@ -14,6 +14,11 @@ class PostsModel
             $conn = $db->getConnection();
             $statement = $conn->prepare("SELECT * FROM posts");
             $statement->execute();
+            
+            while( $row = $statement->fetch( \PDO::FETCH_ASSOC ) )
+            {
+                print_r( $row );
+            }
         }
         catch( PDOException $e)
         {
