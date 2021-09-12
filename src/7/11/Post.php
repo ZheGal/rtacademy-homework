@@ -20,10 +20,9 @@ class Post implements ItemInterface
         return $this->_id;
     }
 
-    public function setId( int $id )
+    public function setId( int $id ) : void
     {
         $this->_id = $id;
-        return $this;
     }
 
     public function getTitle(): string
@@ -31,10 +30,9 @@ class Post implements ItemInterface
         return $this->_title;
     }
 
-    public function setTitle( string $title )
+    public function setTitle( string $title ) : void
     {
         $this->_title = $title;
-        return $this;
     }
 
     public function getAlias(): string
@@ -42,10 +40,9 @@ class Post implements ItemInterface
         return $this->_alias;
     }
 
-    public function setAlias( string $alias )
+    public function setAlias( string $alias ) : void
     {
         $this->_alias = $alias;
-        return $this;
     }
 
     public function getDescription(): string
@@ -53,10 +50,9 @@ class Post implements ItemInterface
         return $this->_description;
     }
 
-    public function setDescription( string $desc )
+    public function setDescription( string $desc ) : void
     {
         $this->_description = $desc;
-        return $this;
     }
 
     public function getAuthor(): Author
@@ -67,7 +63,6 @@ class Post implements ItemInterface
     public function setAuthor( Author $author )
     {
         $this->_author = $author;
-        return $this;
     }
 
     public function getPublishDate(): string
@@ -78,7 +73,6 @@ class Post implements ItemInterface
     public function setPublishDate( string $date ) 
     {
         $this->_publishDate = strtotime( $date );
-        return $this;
     }
 
     public function getCategory(): Category
@@ -89,7 +83,6 @@ class Post implements ItemInterface
     public function setCategory( Category $category )
     {
         $this->_category = $category;
-        return $this;
     }
 
     public function getCover(): Cover
@@ -97,10 +90,9 @@ class Post implements ItemInterface
         return $this->_cover;
     }
 
-    public function setCover( Cover $cover )
+    public function setCover( Cover $cover ) : void
     {
         $this->_cover = $cover;
-        return $this;
     }
 
     public function getUrl(): string

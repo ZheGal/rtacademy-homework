@@ -9,32 +9,32 @@ class Category
 
     public function getId(): int
     {
-        return $this->$_id;
+        return $this->_id;
     }
 
-    public function setId(int $id)
+    public function setId(int $id) : void
     {
-        return $this;
+        $this->_id = $id;
     }
 
     public function getTitle(): string
     {
-        return $this->$_title;
+        return $this->_title;
     }
 
-    public function setTitle(string $title)
+    public function setTitle(string $title) : void
     {
-        return $this;
+        $this->_title = $title;
     }
 
     public function getAlias(): string
     {
-        return $this->$_alias;
+        return $this->_alias;
     }
 
-    public function setAlias(string $alias)
+    public function setAlias(string $alias) : void
     {
-        return $this;
+        $this->_alias = $alias;
     }
 
     public function getUrl(): string
