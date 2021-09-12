@@ -1,4 +1,20 @@
-<?php require_once('./includes/header.php'); ?>
+<?php
+
+use lib\models\PostsModel;
+
+spl_autoload_register(function ($class) {
+    $file = './' . str_replace('\\', '/', $class) . '.php';
+    if (file_exists($file)) {
+        require_once($file);
+    }
+});
+
+$posts = new PostsModel();
+$posts->getList();
+die;
+
+require_once('./includes/header.php');
+?>
 
 <div class="top">
     <div class="wrapper">
