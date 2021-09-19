@@ -1,4 +1,28 @@
-<?php require_once('./includes/header.php'); ?>
+<?php
+use lib\models\PostsModel;
+
+spl_autoload_register(function ($class) {
+    $file = './' . str_replace('\\', '/', $class) . '.php';
+    if (file_exists($file)) {
+        require_once($file);
+    }
+});
+
+$postId = ( isset($_GET['id']) ) ? intval($_GET['id']) : 0;
+
+$postsModel = new PostsModel();
+
+if (!empty($postId)) {
+    $post = $postsModel->getSingle($postId);
+} else {
+    header("Location:/blog");
+}
+
+$websiteMenuModel  = new \lib\models\WebsiteMenuModel();
+$websiteMenuItems  = $websiteMenuModel->getList();
+
+require_once('./includes/header.php');
+?>
 
 <div class="post_page_inner">
     <div class="cover">

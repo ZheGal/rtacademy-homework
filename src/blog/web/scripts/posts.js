@@ -44,7 +44,7 @@ async function printPost(item) {
     let postLi = document.createElement('li');
 
     let postA = document.createElement('a');
-    postA.setAttribute('href', '/blog/single.php?title=' + item.alias);
+    postA.setAttribute('href', '/blog/single.php?id=' + item.id);
     let postCoverIn = document.createElement('div');
     postCoverIn.classList.add('cover');
     let postCoverImage = document.createElement('img');

@@ -1,5 +1,4 @@
 <?php
-
 use lib\models\PostsModel;
 
 spl_autoload_register(function ($class) {
@@ -51,7 +50,7 @@ require_once('./includes/header.php');
         <?php foreach ($posts as $post) : ?>
 
             <li>
-                <a href="/blog/single.php">
+                <a href="<?=$post->getUrl();?>">
                     <div class="cover">
                         <img src="/blog/web/images/<?= $post->getCover()->getImgAttributes()['filename'] ?>.jpg" alt="<?= $post->getCover()->getImgTag() ?>">
                     </div>

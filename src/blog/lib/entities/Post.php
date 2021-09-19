@@ -99,7 +99,7 @@ class Post implements ItemInterface
 
     public function getUrl(): string
     {
-        return "";
+        return "/blog/single.php?id={$this->getId()}";
     }
 
 }
