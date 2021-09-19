@@ -12,6 +12,8 @@ spl_autoload_register(function ($class) {
 $postsModel = new PostsModel();
 $posts = $postsModel->getList();
 
+$count = $postsModel->getTotalCount();
+
 require_once('./includes/header.php');
 ?>
 
@@ -67,7 +69,7 @@ require_once('./includes/header.php');
     </ul>
 
     <div class="more-posts-button">
-        <a href="#" id="morePostsButton">Більше записів</a>
+        <a href="#" id="morePostsButton" data-total="<?=$postsModel->getTotalCount();?>">Більше записів</a>
     </div>
 </div>
 

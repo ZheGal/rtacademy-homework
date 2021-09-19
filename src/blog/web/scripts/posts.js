@@ -1,44 +1,42 @@
 let postsNum = 4;
-let postsCounter = 1;
+let page = 1;
+let pages = 1;
 let loader = document.createElement('div');
 loader.classList.add('loader');
 
 document.body.append(loader);
 
-let posts = (async function() {
-    let response = await fetch('/blog/posts.json');
+
+let loadButton = document.getElementById('morePostsButton');
+loadButton.onclick = (async e => {
+    e.preventDefault();
+
+    pages = Math.ceil((loadButton.dataset.total) / postsNum);
+    page++;
+
+    posts = await getPosts();
+
+    for (let i = 0; i < posts.length; i++) {
+        printPost(posts[i]);
+    }
+
+    if (page == pages) {
+        loadButton.remove();
+    }
+});
+
+async function getPosts() {
+    activateLoader();
+    let response = await fetch(`/blog/posts_ajax.php?page=${page}`);
     if (response.ok) {
         let jsonContents = await response.json();
-
+        setTimeout(() => deactivateLoader(), 100);
         return Array.from(jsonContents);
     } else {
+        setTimeout(() => deactivateLoader(), 100);
         console.error('Сталася помилка ' + response.status + ': ' + response.statusText);
     }
-})();
-
-posts.then(val => {
-    let loadButton = document.getElementById('morePostsButton');
-    let postsSum = val.length;
-
-    loadButton.onclick = (e => {
-        e.preventDefault();
-        activateLoader();
-
-        setTimeout(() => {
-            for (let i = 0; i < postsNum; i++, postsCounter++) {
-                printPost(val[postsCounter - 1]);
-
-                if (postsCounter == postsSum) {
-                    loader.classList.add('active');
-                    loadButton.remove();
-                }
-            }
-            deactivateLoader();
-        }, 1000);
-    });
-
-
-})
+}
 
 async function printPost(item) {
 
