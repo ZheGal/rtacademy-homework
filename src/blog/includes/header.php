@@ -17,12 +17,9 @@
         <div class="container">
             <div class="logo"><a href="/blog/">Website</a></div>
             <ul class="nav">
-                <li><a href="#">Головна</a></li>
-                <li><a href="#">Про нас</a></li>
-                <li><a href="#">Елементи</a></li>
-                <li><a href="#">Контакти</a></li>
-                <li><a href="#">Автори</a></li>
-                <li><a href="#">Теги</a></li>
+                <?php foreach( $websiteMenuItems as $menu) :?>
+                <li><a href="<?=$menu->getHref();?>"><?=$menu->getTitle();?></a></li>
+                <?php endforeach;?>
                 <li><a href="#">Вхід</a></li>
                 <li><a href="#" class="red_button">Реєстрація</a></li>
                 <li><a href="#"><i class="far fa-moon"></i></a></li>

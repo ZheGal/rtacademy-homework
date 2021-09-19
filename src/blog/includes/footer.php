@@ -16,12 +16,9 @@
             <div>
                 <div class="title">Навігація</div>
                 <ul>
-                    <li><a href="#">Головна</a></li>
-                    <li><a href="#">Про нас</a></li>
-                    <li><a href="#">Елементи</a></li>
-                    <li><a href="#">Контакти</a></li>
-                    <li><a href="#">Автори</a></li>
-                    <li><a href="#">Теги</a></li>
+                    <?php foreach( $websiteMenuItems as $menu) :?>
+                    <li><a href="<?=$menu->getHref();?>"><?=$menu->getTitle();?></a></li>
+                    <?php endforeach;?>
                 </ul></div>
             <div>
                 <div class="title">Підписатися</div>

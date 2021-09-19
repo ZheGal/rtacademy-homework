@@ -11,8 +11,10 @@ spl_autoload_register(function ($class) {
 
 $postsModel = new PostsModel();
 $posts = $postsModel->getList();
-
 $count = $postsModel->getTotalCount();
+
+$websiteMenuModel  = new \lib\models\WebsiteMenuModel();
+$websiteMenuItems  = $websiteMenuModel->getList();
 
 require_once('./includes/header.php');
 ?>

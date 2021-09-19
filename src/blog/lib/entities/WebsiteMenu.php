@@ -31,7 +31,10 @@ class WebsiteMenu
 
     public function getHref(): string
     {
-        return $this->_href;
+        $index = [null, false, '/', ''];
+        $href = $this->_href;
+        $result = ( !in_array($href, $index) ) ? $href : 'index';
+        return "/blog/{$result}.php";
     }
 
     public function setHref(string $href)
