@@ -341,6 +341,7 @@ h5 {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    max-height: 25em;
 }
 
 .posts .posts-list li a .data {

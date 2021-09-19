@@ -9,9 +9,8 @@ spl_autoload_register(function ($class) {
     }
 });
 
-$posts = new PostsModel();
-$posts->getList();
-die;
+$postsModel = new PostsModel();
+$posts = $postsModel->getList();
 
 require_once('./includes/header.php');
 ?>
@@ -45,172 +44,31 @@ require_once('./includes/header.php');
     </ul>
 
     <ul class="posts-list" id="postsList">
-        <li>
-            <a href="/blog/single.php">
-                <div class="cover">
-                    <img src="/blog/web/images/001.jpg" alt="">
-                </div>
-                <div class="data">
-                    <div class="info">
-                        <span class="author">Amelia Harry</span>
-                        <span class="date">29 Nov 2018</span>
-                        <span class="post-tag">Public</span>
+        <?php foreach ($posts as $post) : ?>
+
+            <li>
+                <a href="/blog/single.php">
+                    <div class="cover">
+                        <img src="/blog/web/images/<?= $post->getCover()->getImgAttributes()['filename'] ?>.jpg" alt="<?= $post->getCover()->getImgTag() ?>">
                     </div>
-                    <h3 class="post-title">Hubble Daily Contacts. Better Price</h3>
-                    <p class="desc">Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes.</p>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a href="/blog/single.php">
-                <div class="cover">
-                    <img src="/blog/web/images/001.jpg" alt="">
-                </div>
-                <div class="data">
-                    <div class="info">
-                        <span class="author">Amelia Harry</span>
-                        <span class="date">29 Nov 2018</span>
-                        <span class="post-tag">Public</span>
+                    <div class="data">
+                        <div class="info">
+                            <span class="author">Amelia Harry</span>
+                            <span class="date"><?= $post->getPublishDate(); ?></span>
+                            <span class="post-tag">Public</span>
+                        </div>
+                        <h3 class="post-title"><?= $post->getTitle(); ?></h3>
+                        <p class="desc"><?= $post->getDescription(); ?></p>
                     </div>
-                    <h3 class="post-title">Hubble Daily Contacts. Better Price</h3>
-                    <p class="desc">Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes.</p>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a href="/blog/single.php">
-                <div class="cover">
-                    <img src="/blog/web/images/001.jpg" alt="">
-                </div>
-                <div class="data">
-                    <div class="info">
-                        <span class="author">Amelia Harry</span>
-                        <span class="date">29 Nov 2018</span>
-                        <span class="post-tag">Public</span>
-                    </div>
-                    <h3 class="post-title">Hubble Daily Contacts. Better Price</h3>
-                    <p class="desc">Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes.</p>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a href="/blog/single.php">
-                <div class="cover">
-                    <img src="/blog/web/images/001.jpg" alt="">
-                </div>
-                <div class="data">
-                    <div class="info">
-                        <span class="author">Amelia Harry</span>
-                        <span class="date">29 Nov 2018</span>
-                        <span class="post-tag">Public</span>
-                    </div>
-                    <h3 class="post-title">Hubble Daily Contacts. Better Price</h3>
-                    <p class="desc">Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes.</p>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a href="/blog/single.php">
-                <div class="cover">
-                    <img src="/blog/web/images/001.jpg" alt="">
-                </div>
-                <div class="data">
-                    <div class="info">
-                        <span class="author">Amelia Harry</span>
-                        <span class="date">29 Nov 2018</span>
-                        <span class="post-tag">Public</span>
-                    </div>
-                    <h3 class="post-title">Hubble Daily Contacts. Better Price</h3>
-                    <p class="desc">Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes.</p>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a href="/blog/single.php">
-                <div class="cover">
-                    <img src="/blog/web/images/001.jpg" alt="">
-                </div>
-                <div class="data">
-                    <div class="info">
-                        <span class="author">Amelia Harry</span>
-                        <span class="date">29 Nov 2018</span>
-                        <span class="post-tag">Public</span>
-                    </div>
-                    <h3 class="post-title">Hubble Daily Contacts. Better Price</h3>
-                    <p class="desc">Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes.</p>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a href="/blog/single.php">
-                <div class="cover">
-                    <img src="/blog/web/images/001.jpg" alt="">
-                </div>
-                <div class="data">
-                    <div class="info">
-                        <span class="author">Amelia Harry</span>
-                        <span class="date">29 Nov 2018</span>
-                        <span class="post-tag">Public</span>
-                    </div>
-                    <h3 class="post-title">Hubble Daily Contacts. Better Price</h3>
-                    <p class="desc">Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes.</p>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a href="/blog/single.php">
-                <div class="cover">
-                    <img src="/blog/web/images/001.jpg" alt="">
-                </div>
-                <div class="data">
-                    <div class="info">
-                        <span class="author">Amelia Harry</span>
-                        <span class="date">29 Nov 2018</span>
-                        <span class="post-tag">Public</span>
-                    </div>
-                    <h3 class="post-title">Hubble Daily Contacts. Better Price</h3>
-                    <p class="desc">Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes.</p>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a href="/blog/single.php">
-                <div class="cover">
-                    <img src="/blog/web/images/001.jpg" alt="">
-                </div>
-                <div class="data">
-                    <div class="info">
-                        <span class="author">Amelia Harry</span>
-                        <span class="date">29 Nov 2018</span>
-                        <span class="post-tag">Public</span>
-                    </div>
-                    <h3 class="post-title">Hubble Daily Contacts. Better Price</h3>
-                    <p class="desc">Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes.</p>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a href="/blog/single.php">
-                <div class="cover">
-                    <img src="/blog/web/images/001.jpg" alt="">
-                </div>
-                <div class="data">
-                    <div class="info">
-                        <span class="author">Amelia Harry</span>
-                        <span class="date">29 Nov 2018</span>
-                        <span class="post-tag">Public</span>
-                    </div>
-                    <h3 class="post-title">Hubble Daily Contacts. Better Price</h3>
-                    <p class="desc">Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes.</p>
-                </div>
-            </a>
-        </li>
+                </a>
+            </li>
+
+        <?php endforeach;?>
     </ul>
 
     <div class="more-posts-button">
         <a href="#" id="morePostsButton">Більше записів</a>
     </div>
-
 </div>
 
 <div class="more-posts">

@@ -69,7 +69,7 @@ class Post implements ItemInterface
 
     public function getPublishDate(): string
     {
-        return $this->_publishDate;
+        return date('j F Y', $this->_publishDate);
     }
 
     public function setPublishDate( string $date ) 

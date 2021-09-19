@@ -17,7 +17,9 @@ class Cover
 
     public function getImgAttributes(): array
     {
-        return [];
+        return [
+            'filename' => $this->_filename
+        ];
     }
 
     public function getImgTag(): string
