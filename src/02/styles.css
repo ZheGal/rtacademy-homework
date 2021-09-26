@@ -1,0 +1,17 @@
+h1 {
+    color: #6f6f6f;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 0.625em;
+}
