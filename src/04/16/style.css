@@ -1,0 +1,69 @@
+*, html, body {
+    font-family: sans-serif;
+}
+
+body {
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    margin: 3em 0;
+}
+
+.right {
+    margin-left: 1em;
+}
+
+.right_content {
+    border: 1px solid #e9eaeb;
+    background-color: #f8f9fb;
+    font-size: .9em;
+    width: 20em;
+    border-radius: 0.5em;
+}
+
+.right_content .title {
+    background-color: #f0f1f3;
+    border-bottom: 1px solid #e9eaeb;
+    padding: .5em 1em;
+}
+
+button[type="submit"] {
+    width: 100%;
+    border: none;
+    background-color: #0084fb;
+    color: #fff;
+    padding: .8em;
+    cursor: pointer;
+    border-radius: .5em;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    font-size: .8em;
+    margin-bottom: 1em;
+}
+
+.input label {
+    margin-bottom: .4em;
+}
+
+input {
+    padding: .35em .6em;
+    border-radius: .3em;
+    border: 1px solid #9a9a9a;
+}
+
+.right_content .text {
+    padding: .5em 1em 1em;
+    line-height: 1.4em;
+}
+
+.blue_date {
+    color: #1f87df;
+}
