@@ -119,7 +119,8 @@ main .top_right>img {
 
 .posts,
 .more-posts,
-.authors {
+.authors,
+.add_post {
     width: 100%;
     max-width: 83em;
     margin: 0 auto;
@@ -491,6 +492,93 @@ h5 {
     max-width: 800px;
     margin: 0 auto;
     padding-top: 2em;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row > div {
+    width: 100%;
+    padding-left: 2em;
+}
+
+.row > div:first-child {
+    padding-left: 0;
+}
+
+.submit_button > button {
+    background-color: #e6131a;
+    color: #fff;
+    border: none;
+    font-size: 1.25em;
+    padding: .5em 2em;
+    border-radius: 0.5em;
+    margin: 1em 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.submit_button > button:hover {
+    opacity: .7;
+}
+
+.submit_button > button:active {
+    transform: scale(1.1);
+}
+
+.form_content {
+    background-color: #f4f4f4;
+    padding: 1.5em 2em;
+    margin: 1em 0 3em;
+    box-shadow: 0em 1em 1em #d6d6d6;
+    border-radius: 0.4em;
+    border: 1px solid #ececec;
+}
+
+.input_block {
+    margin: 1em 0;
+}
+
+.input_block > input,
+.input_block > select,
+.input_block > textarea {
+    width: 100%;
+    font-size: 1.5em;
+    padding: 0.3em 0.7em 0.4em;
+    font-weight: 400;
+    border: 1px solid #dedede;
+    border-radius: .5em;
+    margin-top: .2em;
+}
+
+.input_block > textarea {
+    resize: none;
+    padding: .6em .9em;
+    font-size: .9em;
+}
+
+.error {
+    color: red;
+    padding: .5em 0;
+}
+
+.invalid {
+    border-color: red!important;
+    background-color: #ffeaea;
+}
+
+.valid {
+    border-color: lime!important;
+}
+
+img.preview {
+    max-width: 100%;
+    margin-top: 1em;
+    border: .1em solid #cacaca;
 }
 
 @media (max-width: 1399px) {

@@ -37,9 +37,50 @@
     </header>
     <main>
 
+        <div class="add_post">
+            <div class="form_content">
+                <h2>Додати новий запис</h2>
+                <form action="#" method="GET" id="form-main-block" enctype="multipart/form-data">
+                    <div id="post_title">
+                        <div class="input_block">
+                            <label for="post_title_input">Назва запису:</label>
+                            <input type="text" name="title" minlength="2" maxlength="128" id="post_title_input" required>
+                        </div>
+                        <div class="input_block">
+                            <label for="post_content_input">Вміст:</label>
+                            <textarea name="content" id="post_content_input" cols="30" rows="10" required></textarea>
+                        </div>
+                        <div class="row">
+                            <div class="input_block">
+                                <label for="post_date_input">Дата публікації:</label>
+                                <input type="datetime-local" value="" id="post_date_input">
+                            </div>
+                            <div class="input_block">
+                                <label for="post_category_input">Категорія:</label>
+                                <select name="category" id="post_category_input" required>
+                                    <option value="" disabled selected>[Оберіть категорію]</option>
+                                    <option value="education">Education</option>
+                                    <option value="inspiration">Inspiration</option>
+                                    <option value="lifestyle">Lifestyle</option>
+                                    <option value="nature">Nature</option>
+                                    <option value="travel">Travel</option>
+                                    <option value="work">Work</option>
+                                </select>
+                            </div>
+                            <div class="input_block">
+                                <label for="post_cover_input">Фотографія:</label>
+                                <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
+                                <input type="file" name="cover" id="post_cover_input" accept="image/jpeg" required>
+                            </div>
+                        </div>
+                        <div class="submit_button">
+                            <button type="submit" id="submit_button">Надіслати</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
         
-        
-
         <div class="more-posts">
             <div class="col">
                 <h5 class="stroke"><span>Роботи</span></h5>
@@ -247,6 +288,8 @@
             </ul>
         </div>
     </footer>
+
+<script src="./scripts/validate.js"></script>
 </body>
 
 </html>
