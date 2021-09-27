@@ -120,7 +120,7 @@ main .top_right>img {
 .posts,
 .more-posts,
 .authors,
-.add_post {
+.add_post, .add_category, .login_form {
     width: 100%;
     max-width: 83em;
     margin: 0 auto;

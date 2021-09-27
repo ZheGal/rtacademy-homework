@@ -37,9 +37,27 @@
     </header>
     <main>
 
+        <div class="add_category">
+            <div class="form_content">
+                <h2>Додати нову категорію</h2>
+                <form action="#" method="GET" id="form-main-block">
+                    <div id="post_title">
+                        <div class="input_block">
+                            <label for="post_title_input">Назва категорії:</label>
+                            <input type="text" name="title" minlength="2" maxlength="32" id="post_title_input" required>
+                        </div>
+                        <div class="input_block">
+                            <label for="post_alias_input">Аліас категорії:</label>
+                            <input type="text" name="title" minlength="2" maxlength="32" id="post_alias_input">
+                        </div>
+                        <div class="submit_button">
+                            <button type="submit" id="submit_button">Надіслати</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
         
-        
-
         <div class="more-posts">
             <div class="col">
                 <h5 class="stroke"><span>Роботи</span></h5>
@@ -247,6 +265,8 @@
             </ul>
         </div>
     </footer>
+
+<script src="./scripts/alias.js"></script>
 </body>
 
 </html>
