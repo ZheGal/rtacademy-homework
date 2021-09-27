@@ -31,7 +31,7 @@ require_once('./includes/header.php');
             </div>
         </div>
         <div class="top_right">
-            <img src="/blog/web/images/girl-reading.png" alt="">
+            <img src="/web/images/girl-reading.png" alt="">
         </div>
     </div>
 </div>
@@ -52,7 +52,7 @@ require_once('./includes/header.php');
             <li>
                 <a href="<?=$post->getUrl();?>">
                     <div class="cover">
-                        <img src="/blog/web/images/<?= $post->getCover()->getImgAttributes()['filename'] ?>.jpg" alt="<?= $post->getCover()->getImgTag() ?>">
+                        <img src="/web/images/<?= $post->getCover()->getImgAttributes()['filename'] ?>.jpg" alt="<?= $post->getCover()->getImgTag() ?>">
                     </div>
                     <div class="data">
                         <div class="info">
@@ -69,9 +69,11 @@ require_once('./includes/header.php');
         <?php endforeach;?>
     </ul>
 
+    <?php if (!empty($posts)): ?>
     <div class="more-posts-button">
         <a href="#" id="morePostsButton" data-total="<?=$postsModel->getTotalCount();?>">Більше записів</a>
     </div>
+    <?php endif; ?>
 </div>
 
 <div class="more-posts">
@@ -79,39 +81,39 @@ require_once('./includes/header.php');
         <h5 class="stroke"><span>Роботи</span></h5>
         <ul class="posts-list">
             <li class="posts-list-item">
-                <a href="/blog/single.php">
+                <a href="/single.php">
                     <div class="title">
                         <div class="name">Початок повсякденної роботи</div>
                         <div class="date">29 Лист 2020</div>
                     </div>
-                    <div class="cover"><img src="/blog/web/images/more/01.jpg" alt=""></div>
+                    <div class="cover"><img src="/web/images/more/01.jpg" alt=""></div>
                 </a>
             </li>
             <li class="posts-list-item">
-                <a href="/blog/single.php">
+                <a href="/single.php">
                     <div class="title">
                         <div class="name">Важливі завдання</div>
                         <div class="date">28 Лист 2020</div>
                     </div>
-                    <div class="cover"><img src="/blog/web/images/more/02.jpg" alt=""></div>
+                    <div class="cover"><img src="/web/images/more/02.jpg" alt=""></div>
                 </a>
             </li>
             <li class="posts-list-item">
-                <a href="/blog/single.php">
+                <a href="/single.php">
                     <div class="title">
                         <div class="name">Чудовий взiрець такого малюнка</div>
                         <div class="date">23 Лист 2020</div>
                     </div>
-                    <div class="cover"><img src="/blog/web/images/more/03.jpg" alt=""></div>
+                    <div class="cover"><img src="/web/images/more/03.jpg" alt=""></div>
                 </a>
             </li>
             <li class="posts-list-item">
-                <a href="/blog/single.php">
+                <a href="/single.php">
                     <div class="title">
                         <div class="name">Аж двома негацiями</div>
                         <div class="date">20 Лист 2020</div>
                     </div>
-                    <div class="cover"><img src="/blog/web/images/more/04.jpg" alt=""></div>
+                    <div class="cover"><img src="/web/images/more/04.jpg" alt=""></div>
                 </a>
             </li>
         </ul>
@@ -120,39 +122,39 @@ require_once('./includes/header.php');
         <h5 class="stroke"><span>Натхнення</span></h5>
         <ul class="posts-list">
             <li class="posts-list-item">
-                <a href="/blog/single.php">
+                <a href="/single.php">
                     <div class="title">
                         <div class="name">Я певний, що се сталося несвiдомо</div>
                         <div class="date">28 Лист 2020</div>
                     </div>
-                    <div class="cover"><img src="/blog/web/images/more/05.jpg" alt=""></div>
+                    <div class="cover"><img src="/web/images/more/05.jpg" alt=""></div>
                 </a>
             </li>
             <li class="posts-list-item">
-                <a href="/blog/single.php">
+                <a href="/single.php">
                     <div class="title">
                         <div class="name">Яка ж є сугестiя лiтературного критика</div>
                         <div class="date">19 Лист 2020</div>
                     </div>
-                    <div class="cover"><img src="/blog/web/images/more/06.jpg" alt=""></div>
+                    <div class="cover"><img src="/web/images/more/06.jpg" alt=""></div>
                 </a>
             </li>
             <li class="posts-list-item">
-                <a href="/blog/single.php">
+                <a href="/single.php">
                     <div class="title">
                         <div class="name">Ми знаємо зверхнiй свiт не такий, як вiн є на дiлi</div>
                         <div class="date">17 Лист 2020</div>
                     </div>
-                    <div class="cover"><img src="/blog/web/images/more/07.jpg" alt=""></div>
+                    <div class="cover"><img src="/web/images/more/07.jpg" alt=""></div>
                 </a>
             </li>
             <li class="posts-list-item">
-                <a href="/blog/single.php">
+                <a href="/single.php">
                     <div class="title">
                         <div class="name">Коли в нашiй уявi повстане образ пожару</div>
                         <div class="date">16 Лист 2020</div>
                     </div>
-                    <div class="cover"><img src="/blog/web/images/more/08.jpg" alt=""></div>
+                    <div class="cover"><img src="/web/images/more/08.jpg" alt=""></div>
                 </a>
             </li>
         </ul>
@@ -161,39 +163,39 @@ require_once('./includes/header.php');
         <h5 class="stroke"><span>Навчання</span></h5>
         <ul class="posts-list">
             <li class="posts-list-item">
-                <a href="/blog/single.php">
+                <a href="/single.php">
                     <div class="title">
                         <div class="name">Основний мотив чисто музикальний</div>
                         <div class="date">25 Лист 2020</div>
                     </div>
-                    <div class="cover"><img src="/blog/web/images/more/09.jpg" alt=""></div>
+                    <div class="cover"><img src="/web/images/more/09.jpg" alt=""></div>
                 </a>
             </li>
             <li class="posts-list-item">
-                <a href="/blog/single.php">
+                <a href="/single.php">
                     <div class="title">
                         <div class="name">Навiть лишаючи на боцi порiвняння</div>
                         <div class="date">20 Лист 2020</div>
                     </div>
-                    <div class="cover"><img src="/blog/web/images/more/10.jpg" alt=""></div>
+                    <div class="cover"><img src="/web/images/more/10.jpg" alt=""></div>
                 </a>
             </li>
             <li class="posts-list-item">
-                <a href="/blog/single.php">
+                <a href="/single.php">
                     <div class="title">
                         <div class="name">Нiякiсiньких риторичних прикрас</div>
                         <div class="date">10 Лист 2020</div>
                     </div>
-                    <div class="cover"><img src="/blog/web/images/more/11.jpg" alt=""></div>
+                    <div class="cover"><img src="/web/images/more/11.jpg" alt=""></div>
                 </a>
             </li>
             <li class="posts-list-item">
-                <a href="/blog/single.php">
+                <a href="/single.php">
                     <div class="title">
                         <div class="name">Тиша се, властиво, брак вражень</div>
                         <div class="date">03 Лист 2020</div>
                     </div>
-                    <div class="cover"><img src="/blog/web/images/more/12.jpg" alt=""></div>
+                    <div class="cover"><img src="/web/images/more/12.jpg" alt=""></div>
                 </a>
             </li>
         </ul>
@@ -206,7 +208,7 @@ require_once('./includes/header.php');
     <ul class="authors-list">
         <li class="author-card">
             <div class="photo">
-                <img src="/blog/web/images/authors/01.jpg" alt="Софія Горбунова">
+                <img src="/web/images/authors/01.jpg" alt="Софія Горбунова">
             </div>
             <div class="author-data">
                 <div class="name">Софія Горбунова</div>
@@ -215,7 +217,7 @@ require_once('./includes/header.php');
         </li>
         <li class="author-card">
             <div class="photo">
-                <img src="/blog/web/images/authors/02.jpg" alt="Артем Зайцев">
+                <img src="/web/images/authors/02.jpg" alt="Артем Зайцев">
             </div>
             <div class="author-data">
                 <div class="name">Артем Зайцев</div>
@@ -224,7 +226,7 @@ require_once('./includes/header.php');
         </li>
         <li class="author-card">
             <div class="photo">
-                <img src="/blog/web/images/authors/03.jpg" alt="Іван Маркін">
+                <img src="/web/images/authors/03.jpg" alt="Іван Маркін">
             </div>
             <div class="author-data">
                 <div class="name">Іван Маркін</div>
