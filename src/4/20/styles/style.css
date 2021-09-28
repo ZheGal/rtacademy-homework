@@ -463,6 +463,7 @@ h5 {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding: 0 2em;
 }
 
 .post_page_inner .cover img {
@@ -648,6 +649,14 @@ img.preview {
 }
 
 @media (max-width: 991px) {
+    .post_header .title {
+        font-size: 2.2em;
+        margin-top: 1.2em;
+    }
+
+    .post_header .pre_text {
+        font-size: 1.3em;
+    }
     main .top .wrapper {
         flex-direction: column-reverse;
         padding: 3em;
@@ -696,6 +705,14 @@ img.preview {
     }
     .author-card {
         width: 100%;
+    }
+    .post_header .title {
+        font-size: 2em;
+        margin-top: 1em;
+    }
+
+    .post_header .pre_text {
+        font-size: 1.1em;
     }
 }
 
