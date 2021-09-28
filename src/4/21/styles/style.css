@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
 a {
     text-decoration: none;
 }
@@ -98,6 +103,8 @@ main .top_right>img {
 .subscribe form {
     display: flex;
     height: 3.5em;
+    border-radius: 2em;
+    overflow: hidden;
 }
 
 .subscribe form input {
@@ -140,6 +147,7 @@ main .top_right>img {
     display: flex;
     list-style: none;
     padding: 2em 0px;
+    flex-wrap: wrap;
 }
 
 .posts .head li {
@@ -351,7 +359,7 @@ h5 {
 
 .posts .posts-list li a .cover img {
     width: 100%;
-    height: 100%;
+    height: 25em;
     object-fit: cover;
     transition: .6s;
 }
@@ -588,8 +596,48 @@ img.preview {
 }
 
 @media (max-width: 1199px) {
+    header {
+        height: auto;
+        padding: 1em;
+    }
+    header .container {
+        flex-direction: column;
+    }
+    header .container ul.nav {
+        margin-top: .5em;
+        flex-wrap: wrap;
+    }
+    header .container ul.nav li {
+        padding: .5em;
+    }
     main .top_right>img {
         width: 25em;
+    }
+    main .top_left .desc {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1.25em;
+        margin-bottom: 2em;
+    }
+    .subscribe {
+        margin: auto;
+    }
+    .posts .posts-list li a .cover img {
+        height: 18em;
+    }
+    .data .post-title {
+        font-size: 1.2em;
+    }
+    .more-posts {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .col {
+        width: calc(90% / 2)!important;
+    }
+    .posts-list-item .title .name {
+        font-size: 1.3em;
     }
 }
 
@@ -615,11 +663,59 @@ img.preview {
     main .top .wrapper .top_left h1 br {
         display: none;
     }
+    .authors-list {
+        flex-wrap: wrap;
+        padding-bottom: 0;
+    }
+    .author-card {
+        width: calc(90% / 2);
+        margin-bottom: 1.5rem;
+    }
+    footer .top {
+        flex-wrap: wrap;
+        margin-bottom: -2em;
+    }
+    footer .top>* {
+        width: calc(100% / 2);
+        margin-bottom: 2em;
+    }
+    footer .top > div:last-child {
+        width: 100%;
+    }
+    footer .subscribe {
+        max-width: initial;
+    }
 }
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    .posts .posts-list li {
+        width: 100%;
+    }
+    .more-posts .col {
+        width: 100%!important;
+    }
+    .author-card {
+        width: 100%;
+    }
+}
 
-@media (max-width: 575px) {}
+@media (max-width: 575px) {
+    main .top_right>img {
+        width: 20em;
+    }
+    main .top .wrapper .top_left h1 {
+        font-size: 2em;
+    }
+    main .top_left .desc {
+        font-size: 1em;
+    }
+    .subscribe form input {
+        font-size: .75em;
+    }
+    .subscribe form button {
+        padding: 1em 1.5em;
+    }
+}
 
 
 /* css loader */
