@@ -19,7 +19,7 @@ class Cover
     public function getListImgAttributes(): array
     {
         return [
-            'src' => './images/' . $this->filename . '.jpg',
+            'src' => $this->_filename,
             'alt' => htmlspecialchars( $this->_alt )
         ];
     }
@@ -27,7 +27,7 @@ class Cover
     public function getSingleImgAttributes(): array
     {
         return [
-            'src' => './images/' . $this->filename . '.jpg',
+            'src' => './images/' . $this->_filename . '.jpg',
             'alt' => htmlspecialchars( $this->_alt )
         ];
     }

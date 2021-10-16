@@ -77,11 +77,13 @@ class PostsModel
 
             return $posts;
         } catch ( \PDOException $e ) {
-            $msg[] = '<div style="position: fixed;width: calc(100% - 2em);top: 0;left: 0;box-sizing: border-box;background: red;color: #fff;font-family: sans-serif;font-weight: bold;padding: .5em .75em;margin: 1em;border: 1px solid #9d0000;text-shadow: 0px 2px 0px #9d0000;z-index: 9;">';
+            $msg[] = '<div style="width: calc(100% - 2em);top: 0;left: 0;box-sizing: border-box;background: red;color: #fff;font-family: sans-serif;font-weight: bold;padding: .5em .75em;margin: 1em;border: 1px solid #9d0000;text-shadow: 0px 2px 0px #9d0000;z-index: 9;">';
             $msg[] = 'Помилка БД: ' . $e->getMessage();
             $msg[] = '</div>';
             
-            echo( implode("". $msg) );
+            $message = implode('', $msg);
+
+            echo $message;
             return [];
         }
     }
