@@ -1,5 +1,13 @@
 <?php
-    // переписать
-    $link = '/blog';
-    echo "Please go to <a href='{$link}'>{$link}</a>";
-?>
+declare( strict_types=1 );
+
+spl_autoload_register(function ($class) {
+    $file = __DIR__ . str_replace('\\', '/', $class) . '.php';
+    if (file_exists($file)) {
+        require_once($file);
+    }
+});
+
+$postsModel = new \lib\entities\PostsModel();
+$posts = $postsModel->getList();
+
