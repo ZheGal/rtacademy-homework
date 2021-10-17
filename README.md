@@ -1,1 +1,1 @@
-# rtacademy-homework
+Ready blog branch
