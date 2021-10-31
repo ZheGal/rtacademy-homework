@@ -1,67 +1,74 @@
+# $ docker-compose down --remove-orphans
+# $ docker-compose build
+# $ docker-compose up -d
+
 version: "3.7"
 
 # Services
 services:                                         # ОПИС СЕРВІСІВ
 
   # MariaDB Service
-  rtacademy_database:                             # назва сервіса
+  rtacademy_wordpress_database:                   # назва сервіса
     image: mariadb:latest                         # основний образ та версія
-    container_name: rtacademy_database            # назва контейнера
+    container_name: rtacademy_wordpress_database  # назва контейнера
     restart: unless-stopped                       # політика перезавантажень сервіса (пока не буде зупинено)
     volumes:                                      # монтування томів (persistent storage) всередину контейнера
-      - ./rtacademy_database_data:/var/lib/mysql
+      - rtacademy_wordpress_database_data:/var/lib/mysql
     ports:                                        # список відкритих назовні портів <hostPort>:<containerPort>
-      - "127.0.0.1:3306:3306/tcp"                 # (відкрити підʼєднання на порт 3306 за межами контейнера тільки з локальної адреси IPv4 за протоколом TCP)
+      - "127.0.0.1:3307:3306/tcp"                 # (відкрити підʼєднання на порт 3306 за межами контейнера тільки з локальної адреси IPv4 та на порт 3307  за протоколом TCP)
     environment:                                  # змінні оточення
       MYSQL_ROOT_USER: root
       MYSQL_ROOT_PASSWORD: secretpassword
-      MYSQL_DATABASE: helloworld
-      MYSQL_USER: helloworld
-      MYSQL_PASSWORD: helloworld
+      MYSQL_DATABASE: blog_wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
     networks:                                     # локальна мережа контейнера
-      - rtacademy_network
+      - rtacademy_wordpress_network
 
   # PHP-FPM Service
-  rtacademy_app:                                  # назва сервіса
-    build:                                        # опції збирання
-      context: ./rtacademy_app                    # директорія для збірки (source directory)
-    image: rtacademy_app:latest                   # основний образ та версія
-    container_name: rtacademy_app                 # назва контейнера
+  rtacademy_wordpress_app:                        # назва сервіса
+    image: wordpress:5.8-php8.0-fpm-alpine        # основний образ та версія
+    container_name: rtacademy_wordpress_app       # назва контейнера
     restart: unless-stopped                       # політика перезавантажень сервіса (допоки не буде зупинено)
+    environment:
+      - WORDPRESS_DB_HOST=rtacademy_wordpress_database:3306
+      - WORDPRESS_DB_NAME=blog_wordpress
+      - WORDPRESS_DB_USER=wordpress
+      - WORDPRESS_DB_PASSWORD=wordpress
     working_dir: /var/www                         # робоча директорія
     volumes:                                      # монтування томів (persistent storage) всередину контейнера
-      - ./src/:/var/www:rw                           # тут необхідно в лівому аргументі (до двокрапки) вказати коректний шлях до ваших файлів
+      - ./wordpress_blog:/var/www:rw              # тут необхідно в лівому аргументі (до двокрапки) вказати коректний шлях до ваших файлів
+      - ./rtacademy_wordpress_app/usr/local/etc/php/conf.d/settings.ini:/usr/local/etc/php/conf.d/settings.ini    # додаткові налаштування PHP
+      - ./wordpress_blog/wp-content/themes/gaming-news:/var/www/wp-content/themes/gaming-news:rw              # шлях до теми
     depends_on:                                   # цей сервіс залежить від наступних сервісів
-      - rtacademy_database
+      - rtacademy_wordpress_database
     networks:                                     # локальна мережа контейнера
-      - rtacademy_network
+      - rtacademy_wordpress_network
 
   # Nginx Service
-  rtacademy_web:                                  # назва сервіса
-    build:                                        # опції збирання
-      context: ./rtacademy_web                    # директорія для збірки (source directory)
-    image: rtacademy_web:latest                   # основний образ та версія
-    container_name: rtacademy_web                 # назва контейнера
+  rtacademy_wordpress_web:                        # назва сервіса
+    image: nginx:latest                           # основний образ та версія
+    container_name: rtacademy_wordpress_web       # назва контейнера
     restart: unless-stopped                       # політика перезавантажень сервіса (допоки не буде зупинено)
     working_dir: /var/www                         # робоча директорія
     volumes:                                      # монтування томів (persistent storage) всередину контейнера
-      - ./src/:/var/www:ro                           # тут необхідно в лівому аргументі (до двокрапки) вказати коректний шлях до ваших файлів
+      - ./wordpress_blog:/var/www:ro              # тут необхідно в лівому аргументі (до двокрапки) вказати коректний шлях до ваших файлів
+      - ./rtacademy_wordpress_web/etc/nginx/conf.d:/etc/nginx/conf.d                                              # налаштування веб-севрвера nginx
+      - ./wordpress_blog/wp-content/themes/gaming-news:/var/www/wp-content/themes/gaming-news:rw              # шлях до теми
     ports:                                        # список відкритих назовні портів <hostPort>:<containerPort>
-      - "80:80"                                   # (відкрити підʼєднання на порт 80 за межами контейнера з будь-якої адреси IPv4/IPv6 за протоколами TCP та UDP)
-      - "443:443"                                 # (відкрити підʼєднання на порт 443 за межами контейнера з будь-якої адреси IPv4/IPv6 за протоколами TCP та UDP)
+      - "0.0.0.0:8080:80/tcp"                     # (відкрити підʼєднання на порт 80 за межами контейнера з будь-якої адреси IPv4 та на порт 8080 за протоколом TCP)
     depends_on:                                   # цей сервіс залежить від наступних сервісів
-      - rtacademy_app
+      - rtacademy_wordpress_app
     networks:                                     # локальна мережа контейнера
-      - rtacademy_network
+      - rtacademy_wordpress_network
 
 # Networks
 networks:                                         # ОПИС МЕРЕЖ
-  rtacademy_network:
-    name: rtacademy_network                       # назва мережі
+  rtacademy_wordpress_network:
+    name: rtacademy_wordpress_network             # назва мережі
     driver: bridge                                # тип підʼєднання (default)
 
 # Volumes
 volumes:                                          # ОПИС ТОМІВ
-  rtacademy_database_data:
-    name: rtacademy_database_data                 # назва тому
-
+  rtacademy_wordpress_database_data:
+    name: rtacademy_wordpress_database_data       # назва тому
