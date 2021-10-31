@@ -39,7 +39,7 @@ services:                                         # ОПИС СЕРВІСІВ
     volumes:                                      # монтування томів (persistent storage) всередину контейнера
       - ./wordpress_blog:/var/www:rw              # тут необхідно в лівому аргументі (до двокрапки) вказати коректний шлях до ваших файлів
       - ./rtacademy_wordpress_app/usr/local/etc/php/conf.d/settings.ini:/usr/local/etc/php/conf.d/settings.ini    # додаткові налаштування PHP
-      - ./wordpress_blog/wp-content/themes/gaming-news:/var/www/wp-content/themes/gaming-news:rw              # шлях до теми
+      - ./wordpress_theme:/var/www/wp-content/themes/wordpress-theme:rw              # шлях до теми
     depends_on:                                   # цей сервіс залежить від наступних сервісів
       - rtacademy_wordpress_database
     networks:                                     # локальна мережа контейнера
@@ -54,7 +54,7 @@ services:                                         # ОПИС СЕРВІСІВ
     volumes:                                      # монтування томів (persistent storage) всередину контейнера
       - ./wordpress_blog:/var/www:ro              # тут необхідно в лівому аргументі (до двокрапки) вказати коректний шлях до ваших файлів
       - ./rtacademy_wordpress_web/etc/nginx/conf.d:/etc/nginx/conf.d                                              # налаштування веб-севрвера nginx
-      - ./wordpress_blog/wp-content/themes/gaming-news:/var/www/wp-content/themes/gaming-news:rw              # шлях до теми
+      - ./wordpress_theme:/var/www/wp-content/themes/wordpress-theme:rw              # шлях до теми
     ports:                                        # список відкритих назовні портів <hostPort>:<containerPort>
       - "0.0.0.0:8080:80/tcp"                     # (відкрити підʼєднання на порт 80 за межами контейнера з будь-якої адреси IPv4 та на порт 8080 за протоколом TCP)
     depends_on:                                   # цей сервіс залежить від наступних сервісів

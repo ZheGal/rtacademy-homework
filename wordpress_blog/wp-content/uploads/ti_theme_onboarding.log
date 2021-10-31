@@ -1,0 +1,16 @@
+[31/Oct/2021:08:35:52] (I): WordPress Instance Info:
+[31/Oct/2021:08:35:52] (I): Home URL : http://127.0.0.1:8080
+[31/Oct/2021:08:35:52] (I): Site URL : http://127.0.0.1:8080
+[31/Oct/2021:08:35:52] (I): WordPress Version : 5.8.1
+[31/Oct/2021:08:35:52] (I): Onboarding Version : 1.1.18
+[31/Oct/2021:08:35:52] (I): Multisite : No
+[31/Oct/2021:08:35:52] (I): Server Info : nginx/1.21.3
+[31/Oct/2021:08:35:52] (I): PHP Version : 8.0.12
+[31/Oct/2021:08:35:52] (I): HTTPS : No
+[31/Oct/2021:08:35:52] (I): PHP Max Execution Time : 60
+[31/Oct/2021:08:35:52] (I): PHP Max Input Vars : 1000
+[31/Oct/2021:08:35:52] (I): Max Upload Size : 33554432
+[31/Oct/2021:08:35:52] (I): Plugins:
+[31/Oct/2021:08:35:52] (I): [PLUGIN] Templates Patterns Collection : v1.1.18 (ThemeIsle)
+[31/Oct/2021:08:35:52] (I): [PLUGIN] Yoast SEO : v17.4 (Команда Yoast)
+[31/Oct/2021:08:35:52] (I): [PLUGIN] WPForms Lite : v1.7.0 (WPForms)

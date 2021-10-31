@@ -1,0 +1,2105 @@
+# Translation of Themes - Neve in Ukrainian
+# This file is distributed under the same license as the Themes - Neve package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-23 08:34:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Themes - Neve\n"
+
+#. Description of the theme
+msgid "Neve is a super fast, easily customizable, multi-purpose theme. It’s perfect for blogs, small business, startups, agencies, firms, e-commerce shops (WooCommerce storefront) as well as personal portfolio sites and most types of projects. A fully AMP optimized and responsive theme, Neve will load in mere seconds and adapt perfectly on any viewing device. While it is lightweight and has a minimalist design, the theme is highly extendable, it has a highly SEO optimized code, resulting in top rankings in Google search results. Neve works perfectly with Gutenberg and the most popular page builders (Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). Neve is also WooCommerce ready, responsive, RTL & translation ready. Look no further. Neve is the perfect theme for you!"
+msgstr "Neve - це супер швидка, легко настроювана, універсальна тема. Вона ідеально підходить для блогів, малого бізнесу, стартапів, агентств, фірм, магазинів електронної торгівлі (магазин WooCommerce), а також для сайтів персональних портфоліо та більшості проектів. Повністю оптимізована і адаптивна AMP тема Neve буде завантажуватися впродовж секунд і чудово адаптуватися до будь-якого пристрою. Хоча вона легка і має мінімалістичний  дизайн, тема дуже розширювана, вона має високо оптимізований для SEO код, що призводить до найвищого рейтингу в результатах пошуку Google. Neve чудово працює з Гутенбергом і найпопулярнішими розробниками сторінок (Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). Neve також готова до WooCommerce, адаптивна, RTL та підготовлена до перекладу. Не шукайте далі. Neve - ідеальна для вас тема!"
+
+#: inc/compatibility/amp.php:373
+msgid "Page"
+msgstr "Сторінку"
+
+#. translators: Theme Name
+#: inc/admin/troubleshoot/main.php:115
+msgid "API for %s is reachable on your site."
+msgstr "API для %s доступний на вашому сайті."
+
+#: inc/admin/troubleshoot/main.php:110
+msgid "Can not connect to API"
+msgstr "Неможливо підключитися до API"
+
+#. translators: Theme Name
+#: inc/admin/troubleshoot/main.php:102
+msgid "API for %s is reachable."
+msgstr "API для %s доступний."
+
+#: inc/admin/troubleshoot/main.php:51
+msgid "Customizer Custom CSS"
+msgstr "Налаштовувач користувацького CSS"
+
+#: inc/admin/troubleshoot/main.php:46
+msgid "Child theme files"
+msgstr "Файли дочірньої теми"
+
+#: inc/admin/troubleshoot/main.php:42 inc/admin/troubleshoot/main.php:47
+#: inc/admin/troubleshoot/main.php:52
+msgid "No"
+msgstr "Ні"
+
+#: inc/admin/troubleshoot/main.php:42
+msgid "Yes"
+msgstr "Так"
+
+#: inc/admin/troubleshoot/main.php:41 inc/admin/troubleshoot/main.php:79
+#: inc/admin/troubleshoot/main.php:93
+msgid "API connectivity"
+msgstr "Можливість підключення API"
+
+#: woocommerce/product-searchform.php:22
+msgid "Search products&hellip;"
+msgstr "Пошук товарів..."
+
+#: inc/customizer/options/main.php:97
+msgid "Change archive font size"
+msgstr "Зміна розміру шрифта архіву"
+
+#: inc/customizer/options/main.php:93
+msgid "Change H1 font size"
+msgstr "Зміна розміру шрифта H1"
+
+#: inc/customizer/options/main.php:89
+msgid "Change headings font"
+msgstr "Зміна шрифта заголовків"
+
+#: inc/customizer/options/main.php:85
+msgid "Change main font"
+msgstr "Змінити головний шрифт"
+
+#: inc/customizer/options/layout_single_post.php:860
+msgid "Button text"
+msgstr "Текст кнопки"
+
+#: inc/customizer/options/layout_single_post.php:838
+msgid "Button style"
+msgstr "Стиль кнопки"
+
+#: inc/customizer/options/layout_single_post.php:781
+msgid "The following magic tags are available for this field: {title} and {comments_number}. Leave this field empty for default behavior."
+msgstr "Для цього поля доступні такі чарівні мітки: {title} та {comments_number}. Залиште поле порожнім для поведінки за замовчуванням."
+
+#: inc/customizer/options/layout_single_post.php:780
+#: inc/customizer/options/layout_single_post.php:819
+msgid "Section title"
+msgstr "Заголовок розділу"
+
+#: inc/customizer/options/layout_single_post.php:587
+msgid "Spacing between elements"
+msgstr "Відстань між елементами"
+
+#: inc/customizer/options/layout_single_post.php:500
+msgid "Full width"
+msgstr "Повна ширина"
+
+#: inc/customizer/options/layout_single_post.php:494
+msgid "Cover container"
+msgstr "Контейнер обкладинки"
+
+#: inc/customizer/options/layout_single_post.php:472
+msgid "Luminosity"
+msgstr "Яскравість"
+
+#: inc/customizer/options/layout_single_post.php:471
+msgid "Hue"
+msgstr "Тон"
+
+#: inc/customizer/options/layout_single_post.php:470
+msgid "Exclusion"
+msgstr "Виключення"
+
+#: inc/customizer/options/layout_single_post.php:469
+msgid "Difference"
+msgstr "Різниця"
+
+#: inc/customizer/options/layout_single_post.php:467
+msgid "Saturation"
+msgstr "Насиченість"
+
+#: inc/customizer/options/layout_single_post.php:466
+msgid "Color Dodge"
+msgstr "Освітлення основи"
+
+#: inc/customizer/options/layout_single_post.php:465
+msgid "Lighten"
+msgstr "Освітлити"
+
+#: inc/customizer/options/layout_single_post.php:464
+msgid "Darken"
+msgstr "Затемнити"
+
+#: inc/customizer/options/layout_single_post.php:463
+msgid "Overlay"
+msgstr "Накладання"
+
+#: inc/customizer/options/layout_single_post.php:462
+msgid "Screen"
+msgstr "Екран"
+
+#: inc/customizer/options/layout_single_post.php:461
+msgid "Multiply"
+msgstr "Розмножити"
+
+#: inc/customizer/options/layout_single_post.php:455
+msgid "Blend mode"
+msgstr "Режим поєднання"
+
+#: inc/customizer/options/layout_single_post.php:436
+msgid "Hide featured image"
+msgstr "Приховати головне зображення"
+
+#: inc/customizer/options/layout_single_post.php:406
+msgid "Overlay opacity"
+msgstr "Прозорість накладання"
+
+#: inc/customizer/options/layout_single_post.php:356
+msgid "Overlay color"
+msgstr "Колір накладання"
+
+#: inc/customizer/options/layout_single_post.php:337
+msgid "Display meta before title"
+msgstr "Відображати метадані перед заголовком"
+
+#: inc/customizer/options/layout_single_post.php:297
+msgid "Title Position"
+msgstr "Позиція заголовка"
+
+#: inc/customizer/options/layout_single_post.php:216
+msgid "Cover padding"
+msgstr "Внутрішній відступ обкладинки"
+
+#: inc/customizer/options/layout_single_post.php:173
+msgid "Cover height"
+msgstr "Висота обкладинки"
+
+#: inc/customizer/options/layout_single_post.php:155
+msgid "Cover"
+msgstr "Обкладинка"
+
+#: inc/customizer/options/layout_single_post.php:101
+msgid "Submit Form Section"
+msgstr "Розділ \"Відправити форму\""
+
+#: inc/customizer/options/layout_single_post.php:92
+msgid "Comments Section"
+msgstr "Розділ з коментарями"
+
+#: inc/customizer/options/layout_single_post.php:80
+msgid "Page Elements"
+msgstr "Елементи сторінки"
+
+#: inc/customizer/options/layout_single_post.php:75
+msgid "Header Layout"
+msgstr "Макет заголовку"
+
+#: inc/customizer/options/layout_blog.php:455
+#: inc/customizer/options/layout_single_post.php:707
+msgid "Avatar Size"
+msgstr "Розмір аватару"
+
+#: inc/customizer/options/layout_blog.php:425
+#: inc/customizer/options/layout_single_post.php:675
+msgid "For special characters make sure to use Unicode. For example > can be displayed using \\003E."
+msgstr "Використовуйте Unicode для спеціальних символів. Наприклад > можна відобразити за допомогою \\003E."
+
+#: inc/customizer/options/layout_blog.php:424
+#: inc/customizer/options/layout_single_post.php:674
+msgid "Separator"
+msgstr "Розділювач"
+
+#: inc/customizer/options/form_fields.php:55
+msgid "Customize the general design of the form elements across the site."
+msgstr "Налаштувати загальний дизайн елементів форми по всьому сайту."
+
+#: inc/customizer/options/buttons.php:166
+msgid "Secondary Button"
+msgstr "Вторинна кнопка"
+
+#: inc/customizer/options/buttons.php:165
+msgid "Primary Button"
+msgstr "Основна кнопка"
+
+#: inc/customizer/loader.php:132
+msgid "update"
+msgstr "оновити"
+
+#: inc/customizer/base_customizer.php:468
+#: inc/customizer/options/layout_single_post.php:381
+msgid "Text color"
+msgstr "Колір тексту"
+
+#: inc/customizer/base_customizer.php:447
+msgid "Background color"
+msgstr "Колір фону"
+
+#: inc/customizer/base_customizer.php:422
+msgid "Section padding"
+msgstr "Внутрішній відступ розділу"
+
+#: inc/customizer/base_customizer.php:346
+msgid "Boxed layout"
+msgstr "Фіксована розмітка"
+
+#. translators: %1$s - &rarr; symbol %2$s - &rarr; symbol %3$s - &rarr; symbol
+#: header-footer-grid/templates/components/component-footer-sidebar.php:37
+msgid "Appearance %1$s Customize %2$s Footer %3$s"
+msgstr "Вигляд %1$s Налаштування %2$s Підвал %3$s"
+
+#. translators: %s: Link to Learn More page.
+#: header-footer-grid/Core/Components/PaletteSwitch.php:384
+msgid "Adjust default color scheme based on the user device preferences. %1$sLearn More%2$s."
+msgstr "Налаштуйте схему кольорів за замовчуванням на основі налаштувань пристрою користувача. %1$sДізнатися більше%2$s."
+
+#: header-footer-grid/Core/Components/PaletteSwitch.php:382
+msgid "Automatically adjust color scheme"
+msgstr "Автоматично підлаштовувати кольорову схему"
+
+#: header-footer-grid/Core/Components/PaletteSwitch.php:365
+msgid "Leave blank for no label ..."
+msgstr "Залишити порожнім, щоб не було міток..."
+
+#: header-footer-grid/Core/Components/PaletteSwitch.php:362
+msgid "Label"
+msgstr "Мітка"
+
+#: header-footer-grid/Core/Components/PaletteSwitch.php:302
+#: header-footer-grid/Core/Components/PaletteSwitch.php:303
+msgid "Select icon"
+msgstr "Вибрати іконку"
+
+#: header-footer-grid/Core/Components/PaletteSwitch.php:282
+#: header-footer-grid/Core/Components/PaletteSwitch.php:283
+msgid "Dark Palette"
+msgstr "Темна палітра"
+
+#. translators: %s: Link to Edit global color customizer.
+#: header-footer-grid/Core/Components/PaletteSwitch.php:269
+msgid "The base palette is used for light mode. %1$sEdit color palettes%2$s."
+msgstr "Базова палітра використовується для світлого режиму. %1$sРедагувати палітри кольорів%2$s."
+
+#: header-footer-grid/Core/Components/PaletteSwitch.php:267
+msgid "Light Palette"
+msgstr "Світла палітра"
+
+#: header-footer-grid/Core/Components/PaletteSwitch.php:89
+msgid "Palette Switch"
+msgstr "Зміна палітри"
+
+#: header-footer-grid/Core/Builder/Header.php:198
+msgid "Mobile Sidebar"
+msgstr "Бічна панель для мобільних пристроїв"
+
+#: header-footer-grid/Core/Builder/Footer.php:126
+msgid "Footer Main"
+msgstr "Основний підвал"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:2087
+msgid "Columns Layout"
+msgstr "Розмітка стовпців"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:2070
+msgid "Number of Columns"
+msgstr "Кількість стовпців"
+
+#. translators: %s - Theme name
+#: inc/admin/dashboard/main.php:211
+msgid "In order to be able to import any starter sites for %1$s you would need to have the %2$s plugin updated to the latest version."
+msgstr "Щоб мати змогу імпортувати будь-який початковий сайт для %1$s, необхідно, щоб плагін %2$s був оновлений до останньої версії."
+
+#. translators: 1 - Theme name, 2 - Cloud Templates & Patterns Collection
+#: inc/admin/dashboard/main.php:209
+msgid "In order to be able to import any starter sites for %1$s you would need to have the %2$s plugin active."
+msgstr "Щоб мати змогу імпортувати будь-який початковий сайт для %1$s, необхідно, щоб плагін %2$s був активним."
+
+#. translators: store name (Themeisle)
+#: globals/utilities.php:355 header-footer-grid/Core/Builder/Footer.php:48
+#: header-footer-grid/Core/Builder/Header.php:51
+#: inc/admin/dashboard/main.php:224 inc/core/admin.php:432
+#: inc/customizer/controls/simple_upsell.php:64
+#: inc/customizer/controls/simple_upsell_section.php:62
+#: inc/customizer/options/upsells.php:46 inc/customizer/options/upsells.php:106
+#: assets/apps/dashboard/build/dashboard.js:1
+msgid "(opens in a new tab)"
+msgstr "(відкривається у новій вкладці)"
+
+#: inc/customizer/options/layout_blog.php:509
+#: inc/customizer/options/layout_single_post.php:759
+msgid "Use last updated date instead of the published one"
+msgstr "Використати останню оновлену дату замість опублікованої"
+
+#. translators: %s: commands to run the theme
+#: functions.php:63
+msgid "You appear to be running the Neve theme from source code. Please finish installation by running %s."
+msgstr "Схоже, ви запускаєте тему Neve  з вихідного коду. Будь ласка, завершіть встановлення, запустивши %s."
+
+#: inc/views/product_layout.php:70
+msgid "Out of stock"
+msgstr "Немає в наявності"
+
+#: inc/compatibility/starter-content/project-details.php:10
+msgctxt "Theme starter content"
+msgid "Project Details"
+msgstr "Деталі проєкту"
+
+#: inc/compatibility/starter-content/contact.php:11
+msgctxt "Theme starter content"
+msgid "Contact"
+msgstr "Контакт"
+
+#: inc/compatibility/starter-content/portofolio.php:10
+msgctxt "Theme starter content"
+msgid "Portofolio"
+msgstr "Портфоліо"
+
+#: inc/compatibility/elementor.php:292 inc/core/front_end.php:91
+msgid "Theme"
+msgstr "Тема"
+
+#: inc/customizer/options/form_fields.php:598
+msgid "Customize the default button styles"
+msgstr "Налаштувати стилі кнопки за замовчуванням"
+
+#: inc/customizer/options/form_fields.php:587
+msgid "Button Style"
+msgstr "Стиль кнопки"
+
+#: inc/customizer/options/form_fields.php:479
+msgid "Form Labels"
+msgstr "Мітки форми"
+
+#: inc/customizer/options/form_fields.php:337
+msgid "Input Text"
+msgstr "Текст для вводу"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:502
+#: inc/customizer/options/form_fields.php:295
+msgid "Border Color"
+msgstr "Колір рамки"
+
+#: inc/customizer/options/form_fields.php:147
+msgid "Field Background Color"
+msgstr "Фоновий колір поля"
+
+#: inc/customizer/options/form_fields.php:95
+msgid "Field Padding"
+msgstr "Внутрішній відступ поля"
+
+#: inc/customizer/options/form_fields.php:56
+#: inc/customizer/options/form_fields.php:73
+msgid "Form Fields"
+msgstr "З полів"
+
+#: inc/compatibility/starter-content/home.php:9
+msgctxt "Theme starter content"
+msgid "Home"
+msgstr "Головна сторінка"
+
+#: inc/compatibility/starter-content/about.php:10
+msgctxt "Theme starter content"
+msgid "About"
+msgstr "Про нас"
+
+#: inc/compatibility/starter_content.php:170
+msgctxt "Theme starter content"
+msgid "Blog"
+msgstr "Блог"
+
+#: inc/customizer/options/typography.php:163
+msgid "Learn more about fallback fonts"
+msgstr "Докладніше про альтернативні шрифти"
+
+#: inc/customizer/options/typography.php:156
+msgid "Fallback Font"
+msgstr "Альтернативний шрифт"
+
+#: inc/customizer/options/colors_background.php:99
+msgid "How the color system works"
+msgstr "Як працює система кольорів"
+
+#: inc/customizer/options/colors_background.php:91
+#: assets/apps/customizer-controls/build/controls.js:1
+msgid "Global Colors"
+msgstr "Загальні кольори"
+
+#: inc/compatibility/elementor.php:120 inc/core/front_end.php:128
+#: assets/apps/customizer-controls/build/controls.js:1
+#: assets/apps/metabox/build/index.js:1
+msgid "Extra Color 2"
+msgstr "Додатковий колір 2"
+
+#: inc/compatibility/elementor.php:119 inc/core/front_end.php:124
+#: assets/apps/customizer-controls/build/controls.js:1
+#: assets/apps/metabox/build/index.js:1
+msgid "Extra Color 1"
+msgstr "Додатковий колір 1"
+
+#: inc/compatibility/elementor.php:118 inc/core/front_end.php:120
+#: assets/apps/customizer-controls/build/controls.js:1
+#: assets/apps/metabox/build/index.js:1
+msgid "Text Dark Background"
+msgstr "Фон з темним текстом"
+
+#: inc/compatibility/elementor.php:116 inc/core/front_end.php:112
+#: assets/apps/customizer-controls/build/controls.js:1
+#: assets/apps/metabox/build/index.js:1
+msgid "Dark Background"
+msgstr "Темний фон"
+
+#: inc/compatibility/elementor.php:115 inc/core/front_end.php:108
+#: assets/apps/customizer-controls/build/controls.js:1
+#: assets/apps/metabox/build/index.js:1
+msgid "Light Background"
+msgstr "Світлий фон"
+
+#: inc/compatibility/elementor.php:114 inc/core/front_end.php:104
+#: assets/apps/customizer-controls/build/controls.js:1
+#: assets/apps/metabox/build/index.js:1
+msgid "Site Background"
+msgstr "Фон сайту"
+
+#: inc/compatibility/elementor.php:113 inc/core/front_end.php:100
+#: assets/apps/customizer-controls/build/controls.js:1
+#: assets/apps/metabox/build/index.js:1
+msgid "Secondary Accent"
+msgstr "Вторинний акцент"
+
+#: inc/compatibility/elementor.php:112 inc/core/front_end.php:96
+#: assets/apps/customizer-controls/build/controls.js:1
+#: assets/apps/metabox/build/index.js:1
+msgid "Primary Accent"
+msgstr "Головний акцент"
+
+#: globals/utilities.php:383 globals/utilities.php:431
+msgid "Base"
+msgstr "База"
+
+#: inc/customizer/options/upsells.php:143
+msgid "WooCommerce typography options available in PRO"
+msgstr "У професійній версії доступні параметри типографії WooCommerce"
+
+#: inc/customizer/options/upsells.php:138
+msgid "More single product options available in PRO"
+msgstr "У професійній версії доступно більше параметрів для окремих товарів"
+
+#: inc/customizer/options/upsells.php:133
+msgid "More checkout options available in PRO"
+msgstr "У професійній версії доступно більше параметрів оформлення замовлення "
+
+#: inc/customizer/options/upsells.php:128
+msgid "More product catalog options available in PRO"
+msgstr "У професійній версії доступно більше параметрів каталогу товарів"
+
+#: inc/customizer/options/upsells.php:119
+msgid "More single post components available in PRO"
+msgstr "У професійній версії доступно більше компонентів для окремих записів"
+
+#: inc/customizer/options/upsells.php:114
+msgid "More blog layout customization options available in PRO"
+msgstr "У професійній версії доступно більше параметрів для налаштування розмітки блогу "
+
+#: inc/customizer/options/upsells.php:45 inc/customizer/options/upsells.php:100
+msgid "Extend your header with more components and settings, build sticky/transparent headers or display them conditionally."
+msgstr "Розширюйте заголовок більшою кількістю компонентів та налаштувань, створюйте клейкі/прозорі заголовки або відображайте їх умовно."
+
+#. translators: %s is the header name
+#: header-footer-grid/Core/Customizer.php:282
+#: assets/apps/customizer-controls/build/3.js:5
+msgid "Click on any empty space to add components, or existing components to adjust settings."
+msgstr "Натисніть на будь-яке порожнє місце, щоб додати компоненти, або на наявні компоненти, щоб змінити налаштування."
+
+#. translators: %s is the type of builder
+#: header-footer-grid/Core/Customizer.php:279
+msgid "%s Builder:"
+msgstr "Конструктор %s:"
+
+#: header-footer-grid/Core/Builder/Header.php:62
+msgid "Build your own header or choose from preset options."
+msgstr "Створіть свій власний заголовок чи виберіть з передвстановлених параметрів."
+
+#. translators: %s: Author's display name.
+#: inc/views/partials/post_meta.php:231
+msgid "Posts by %s"
+msgstr "Записи автора %s"
+
+#: inc/customizer/options/layout_blog.php:645
+msgid "here"
+msgstr "тут"
+
+#: inc/customizer/options/layout_blog.php:643
+msgid "Customize Typography for the Archive page"
+msgstr "Налаштувати типографію для сторінки архіву"
+
+#: inc/customizer/options/layout_blog.php:248
+msgid "Ordering and Content"
+msgstr "Замовлення та вміст"
+
+#: inc/customizer/options/layout_blog.php:211
+msgid "Alternating layout"
+msgstr "Вирівнювання розмітки"
+
+#: inc/customizer/options/layout_blog.php:150
+msgid "Columns"
+msgstr "Колонки"
+
+#: inc/customizer/options/layout_blog.php:131
+msgid "Grid"
+msgstr "Сітка"
+
+#: inc/customizer/options/layout_blog.php:127
+msgid "Covers"
+msgstr "Обкладинки"
+
+#: inc/customizer/options/layout_blog.php:123
+msgid "List"
+msgstr "Список"
+
+#: inc/customizer/options/layout_blog.php:100
+msgid "Blog Layout"
+msgstr "Розмітка блогу"
+
+#: inc/customizer/options/buttons.php:103
+#: inc/customizer/options/buttons.php:310
+msgid "Button Text"
+msgstr "Текст кнопки"
+
+#: inc/compatibility/block-patterns/two-columns-image-text.php:9
+msgid "Two columns with image and text"
+msgstr "Два стовпці із зображенням та текстом"
+
+#: inc/compatibility/block-patterns/two-columns-with-text.php:9
+msgid "Two columns with text"
+msgstr "Два стовпці з текстом"
+
+#: inc/compatibility/block-patterns/light-header-left-aligned-content.php:9
+msgid "Light header with left-aligned content"
+msgstr "Світлий заголовок з вирівнюванням вмісту по лівому краю"
+
+#: inc/compatibility/block-patterns/gallery-title-buttons.php:9
+msgid "Gallery with title and button"
+msgstr "Галерея із заголовком та кнопкою"
+
+#: inc/compatibility/block-patterns/testimonials-columns.php:9
+msgid "Testimonial columns"
+msgstr "Стовпці з відгуками та рекомендаціями"
+
+#: inc/compatibility/block-patterns/two-columns-centered-content.php:9
+msgid "Two columns with centered content"
+msgstr "Три стовпці з вмістом по центру"
+
+#: inc/compatibility/block-patterns/three-columns-images-text.php:9
+msgid "Three columns with images and text"
+msgstr "Три стовпці із зображеннями та текстом"
+
+#: inc/compatibility/block-patterns/three-columns-images-texts-content.php:9
+msgid "Three columns with images, content and buttons"
+msgstr "Три стовпці із зображеннями, записом та кнопками"
+
+#: inc/compatibility/block-patterns/dark-header-centered-content.php:9
+msgid "Dark header with centered content"
+msgstr "Темний заголовок з відцентрованим вмістом"
+
+#: inc/compatibility/block-patterns/gallery-grid-buttons.php:9
+msgid "Gallery grid with buttons"
+msgstr "Сітка галереї з кнопками"
+
+#: inc/compatibility/block-patterns/four-columns-team-members.php:9
+msgid "Four columns with team members"
+msgstr "Чотири стовпці з членами команди"
+
+#: inc/customizer/options/layout_blog.php:368
+#: inc/customizer/options/layout_single_post.php:86
+#: assets/apps/metabox/build/index.js:1
+msgid "Post Meta"
+msgstr "Мета-дані запису"
+
+#: inc/customizer/options/layout_single_post.php:247
+msgid "Title Alignment"
+msgstr "Вирівнювання заголовка"
+
+#: header-footer-grid/Core/Components/Nav.php:304
+msgid "Expand first level of dropdowns when menu is in mobile menu content."
+msgstr "Розгортати перший рівень випадних елементів, коли меню знаходиться у вмісті мобільного меню."
+
+#: header-footer-grid/Core/Components/MenuIcon.php:132
+msgid "Mobile Menu Options"
+msgstr "Параметри мобільного меню"
+
+#: header-footer-grid/Core/Components/MenuIcon.php:128
+msgid "Show Mobile Menu"
+msgstr "Показати мобільне меню"
+
+#: header-footer-grid/Core/Components/Nav.php:274
+#: header-footer-grid/Core/Components/NavFooter.php:185
+#: header-footer-grid/Core/Components/SecondNav.php:188
+msgid "Items Min Height (px)"
+msgstr "Мінімальна висота елементів (px)"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:2006
+msgid "Sidebar Width"
+msgstr "Ширина бічної колонки"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1991
+msgid "Slide Down"
+msgstr "Здвиг вниз"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1990
+msgid "Full Canvas"
+msgstr "Повні полотна"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1989
+msgid "Pull from Right"
+msgstr "Перетягнути справа"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1988
+msgid "Pull from Left"
+msgstr "Перетягнути зліва"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1987
+msgid "Slide from Right"
+msgstr "Здвиг справа"
+
+#: inc/admin/metabox/manager.php:196
+msgid "or"
+msgstr "або"
+
+#. translators: %1$s - Keyboard shortcut.   %2&s - svg icon
+#: inc/admin/metabox/manager.php:189
+msgid "Click the %1$s icon in the top bar or use the keyboard shortcut ( %2$s ) to customise the layout settings for this page"
+msgstr "Натисніть іконку %1$s у верхній панелі або скористайтеся комбінацією клавіш ( %2$s ), щоб налаштувати параметри макету для цієї сторінки"
+
+#: inc/admin/metabox/manager.php:186
+msgid "Page Settings are now accessible from the top bar"
+msgstr "Налаштування сторінки тепер доступні з верхньої панелі"
+
+#: header-footer-grid/Core/Magic_Tags.php:530
+msgid "Comments meta"
+msgstr "Мета-дані коментарів"
+
+#: header-footer-grid/Core/Magic_Tags.php:526
+msgid "Category meta"
+msgstr "Мета-дані категорії"
+
+#: header-footer-grid/Core/Magic_Tags.php:522
+msgid "Date meta"
+msgstr "Мета-дані дати"
+
+#: header-footer-grid/Core/Magic_Tags.php:518
+msgid "Author meta"
+msgstr "Мета-дані автора"
+
+#: header-footer-grid/Core/Magic_Tags.php:514
+msgid "Current Post Meta"
+msgstr "Мета-дані поточного запису"
+
+#: inc/core/front_end.php:389
+msgid "All items are already selected."
+msgstr "Усі елементи вже вибрано."
+
+#: inc/core/front_end.php:388
+msgid "Add items by clicking the ones below."
+msgstr "Додати елементи, натиснувши на них нижче."
+
+#: inc/core/front_end.php:387
+msgid "Add item"
+msgstr "Додати елемент"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:2123
+msgid "Vertical Alignment"
+msgstr "Вертикальне вирівнювання"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:2105
+#: inc/customizer/options/layout_single_post.php:306
+msgid "Middle"
+msgstr "Середина"
+
+#: inc/customizer/options/typography.php:322
+msgid "Comments reply title"
+msgstr "Заголовок відповіді на коментарі"
+
+#: inc/customizer/options/typography.php:306
+#: inc/customizer/options/typography.php:317
+msgid "Post meta"
+msgstr "Мета-дані запису"
+
+#: inc/customizer/options/typography.php:301
+msgid "Post excerpt"
+msgstr "Уривок запису"
+
+#: inc/customizer/options/typography.php:296
+msgid "Blog Archive"
+msgstr "Архів блогу"
+
+#: inc/customizer/options/typography.php:295
+#: inc/customizer/options/typography.php:311
+msgid "Post title"
+msgstr "Заголовок запису"
+
+#: header-footer-grid/Core/Components/Search.php:80
+#: header-footer-grid/Core/Components/SearchResponsive.php:257
+msgid "Height"
+msgstr "Висота"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:240
+#: inc/customizer/options/layout_blog.php:275
+msgid "Search Field"
+msgstr "Поле пошуку"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:135
+msgid "Icon"
+msgstr "Іконка"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:119
+msgid "Float Above Header"
+msgstr "Спливати над заголовком"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:118
+msgid "Minimal"
+msgstr "Мінімум"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:117
+msgid "Canvas"
+msgstr "Полотна"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1981
+#: header-footer-grid/Core/Components/SearchResponsive.php:113
+msgid "Open Behaviour"
+msgstr "Відкрити Behaviour"
+
+#: globals/utilities.php:352 inc/customizer/options/upsells.php:115
+#: inc/customizer/options/upsells.php:120
+#: inc/customizer/options/upsells.php:129
+#: inc/customizer/options/upsells.php:134
+#: inc/customizer/options/upsells.php:139
+#: inc/customizer/options/upsells.php:144
+#: assets/apps/dashboard/build/dashboard.js:1
+msgid "Learn More"
+msgstr "Дізнатись більше"
+
+#. translators: 1 - Theme Name (Neve), 2 - Plugin Name (Neve Pro)
+#: inc/admin/dashboard/main.php:298
+msgid "We recommend that both %1$s and %2$s are updated to the latest version to ensure optimal intercompatibility."
+msgstr "Ми рекомендуємо оновити і %1$s, і %2$s до останньої версії для забезпечення оптимальної сумісності."
+
+#. translators: s - Pro plugin name (Neve Pro)
+#: inc/admin/dashboard/main.php:280
+msgid "New plugin update for %1$s! Please update to %2$s."
+msgstr "Нове оновлення плагіна для %1$s! Будь ласка, оновіть до %2$s."
+
+#: inc/admin/dashboard/main.php:268 inc/admin/dashboard/main.php:289
+msgid "Update Now"
+msgstr "Оновити"
+
+#. translators: s - theme name (Neve).
+#: inc/admin/dashboard/main.php:263
+msgid "New theme update for %1$s! Please update to %2$s."
+msgstr "Нове оновлення теми для %1$s! Будь ласка, оновіть до %2$s."
+
+#. translators: store name (Themeisle)
+#: inc/admin/dashboard/main.php:223
+msgid "Enter your license from %1$s purchase history in order to get plugin updates"
+msgstr "Уведіть ліцензію з історії покупок %1$s, щоб отримати оновлення плагіна"
+
+#. translators: %s - "Neve Pro Addon"
+#: inc/admin/dashboard/main.php:219
+msgid "Please update %s to the latest version and then refresh this page to have access to the options."
+msgstr "Будь ласка, оновіть %s до останньої версії, а потім оновіть сторінку, щоб отримати доступ до параметрів."
+
+#. translators: %s - "Neve Pro Addon"
+#: inc/admin/dashboard/main.php:217
+msgid "%s license"
+msgstr "ліцензія %s"
+
+#. translators: %s - Theme name
+#. translators: %s - Theme name
+#. translators: %s - Theme name
+#. translators: %s - Theme name
+#: inc/admin/dashboard/main.php:127 inc/admin/dashboard/main.php:129
+#: inc/admin/dashboard/main.php:203 assets/apps/metabox/build/index.js:2
+msgid "%s Options"
+msgstr "Налаштування %s"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:464
+#: header-footer-grid/Core/Components/Search.php:204
+#: header-footer-grid/Core/Components/SearchResponsive.php:381
+#: inc/customizer/options/form_fields.php:189
+#: assets/apps/customizer-controls/build/controls.js:1
+msgid "Border Width"
+msgstr "Ширина рамки"
+
+#: header-footer-grid/Core/Components/Search.php:267
+#: header-footer-grid/Core/Components/SearchResponsive.php:444
+#: inc/customizer/options/form_fields.php:242
+#: assets/apps/customizer-controls/build/controls.js:1
+msgid "Border Radius"
+msgstr "Радіус рамки"
+
+#: inc/customizer/options/layout_container.php:63
+msgid "Container width"
+msgstr "Ширина контейнера"
+
+#: header-footer-grid/Core/Components/Logo.php:163
+msgid "Logo max width"
+msgstr "Максимальна ширина логотипа"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:363
+msgid "Row height"
+msgstr "Висота рядка"
+
+#: header-footer-grid/Core/Magic_Tags.php:623
+msgid "Currency Symbol"
+msgstr "Символ валюти"
+
+#: header-footer-grid/Core/Magic_Tags.php:619
+msgid "Currency Name"
+msgstr "Назва валюти"
+
+#: header-footer-grid/Core/Magic_Tags.php:615
+msgid "Total"
+msgstr "Разом"
+
+#: header-footer-grid/Core/Magic_Tags.php:611
+msgid "Total + Currency Symbol"
+msgstr "Символ \"Разом + Валюта\""
+
+#: header-footer-grid/Core/Components/Logo.php:193
+msgid "Disable Homepage Link"
+msgstr "Вимкнути посилання на домашню сторінку"
+
+#: header-footer-grid/Core/Magic_Tags.php:581
+msgid "User Email"
+msgstr "E-mail користувача"
+
+#: header-footer-grid/Core/Magic_Tags.php:577
+msgid "Display Name"
+msgstr "Відображати назву"
+
+#: header-footer-grid/Core/Magic_Tags.php:573
+msgid "User Nice Name"
+msgstr "Псевдонім користувача"
+
+#: header-footer-grid/Core/Magic_Tags.php:570
+msgid "Current User"
+msgstr "Поточний користувач"
+
+#: header-footer-grid/Core/Components/Nav.php:248
+#: header-footer-grid/Core/Components/NavFooter.php:159
+#: header-footer-grid/Core/Components/SecondNav.php:162
+msgid "Items Spacing (px)"
+msgstr "Відстань між буквами (px)"
+
+#: header-footer-grid/Core/Components/Nav.php:95
+#: header-footer-grid/Core/Components/NavFooter.php:68
+#: header-footer-grid/Core/Components/SecondNav.php:68
+msgid "Hover Skin Mode"
+msgstr "Ефект при наведенні"
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:1015
+msgid "Justify"
+msgstr "По ширині"
+
+#: header-footer-grid/Core/Builder/Header.php:105
+#: header-footer-grid/Core/Builder/Header.php:115
+msgid "Header Presets"
+msgstr "Передвстановлення заголовка"
+
+#: inc/views/pluggable/pagination.php:255 inc/views/template_parts.php:328
+msgid "Pages:"
+msgstr "Сторінки:"
+
+#: inc/customizer/options/layout_sidebar.php:319
+msgid "edit"
+msgstr "редагувати"
+
+#. translators: %s is edit page link
+#: inc/customizer/options/layout_sidebar.php:315
+msgid "Note: It seems that the shop page has an individual sidebar layout already set. To be able to control the layout from here, %s your page and set the sidebar to \"Inherit\"."
+msgstr "Примітка: схоже, на сторінці магазину вже налаштований макет бічної панелі. Щоб мати змогу керувати макетом звідси, %s вашу сторінку та встановіть бічну панель на «Успадкувати»."
+
+#. translators: %s is the header name
+#: header-footer-grid/Core/Customizer.php:271
+msgid "You are customizing the %s Header"
+msgstr "Ви налаштовуєте заголовок %s"
+
+#: header-footer-grid/Core/Magic_Tags.php:647
+msgid "Checkout URL"
+msgstr "URL оформлення замовлення"
+
+#: header-footer-grid/Core/Magic_Tags.php:643
+msgid "Cart URL"
+msgstr "URL кошика"
+
+#: header-footer-grid/Core/Magic_Tags.php:639
+msgid "Product Title"
+msgstr "Назва товару"
+
+#: header-footer-grid/Core/Magic_Tags.php:635
+msgid "Product Price"
+msgstr "Ціна товару"
+
+#: header-footer-grid/Core/Magic_Tags.php:632
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: header-footer-grid/Core/Magic_Tags.php:602
+msgid "Current Year"
+msgstr "Поточний рік"
+
+#: header-footer-grid/Core/Magic_Tags.php:598
+msgid "Home URL"
+msgstr "Адреса WordPress"
+
+#: header-footer-grid/Core/Magic_Tags.php:594
+msgid "Site Tagline"
+msgstr "Ключова фраза сайту"
+
+#: header-footer-grid/Core/Magic_Tags.php:590
+msgid "Site Title"
+msgstr "Назва сайту"
+
+#: header-footer-grid/Core/Magic_Tags.php:587
+msgid "Global"
+msgstr "Глобально"
+
+#: header-footer-grid/Core/Magic_Tags.php:564
+msgid "Author URL"
+msgstr "URL автора"
+
+#: header-footer-grid/Core/Magic_Tags.php:560
+msgid "Author Name"
+msgstr "Ім'я автора"
+
+#: header-footer-grid/Core/Magic_Tags.php:556
+msgid "Author Bio"
+msgstr "Відомості про автора"
+
+#: header-footer-grid/Core/Magic_Tags.php:547
+msgid "Archive URL"
+msgstr "URL архіву"
+
+#: header-footer-grid/Core/Magic_Tags.php:543
+msgid "Archive Title"
+msgstr "Назва архіву"
+
+#: header-footer-grid/Core/Magic_Tags.php:539
+msgid "Archive Description"
+msgstr "Опис архіву"
+
+#: header-footer-grid/Core/Magic_Tags.php:536
+msgid "Archive"
+msgstr "Архівувати"
+
+#: header-footer-grid/Core/Magic_Tags.php:510
+msgid "Current Single URL"
+msgstr "Поточний окремий URL"
+
+#: header-footer-grid/Core/Magic_Tags.php:506
+msgid "Current Single Excerpt"
+msgstr "Поточний окремий уривок"
+
+#: header-footer-grid/Core/Magic_Tags.php:502
+msgid "Current Single Title"
+msgstr "Поточний заголовок"
+
+#: header-footer-grid/Core/Magic_Tags.php:499
+msgid "Single"
+msgstr "Окремий"
+
+#: header-footer-grid/Core/Components/Logo.php:113
+msgid "Display"
+msgstr "Показати"
+
+#: header-footer-grid/Core/Components/CartIcon.php:115
+#: header-footer-grid/Core/Components/PaletteSwitch.php:326
+#: header-footer-grid/Core/Components/SearchResponsive.php:154
+msgid "Icon Size"
+msgstr "Розмір іконки"
+
+#: header-footer-grid/Core/Components/Search.php:332
+#: header-footer-grid/Core/Components/SearchResponsive.php:509
+#: assets/apps/customizer-controls/build/controls.js:1
+msgid "Text and Border"
+msgstr "Текст і рамка"
+
+#: inc/customizer/options/layout_single_post.php:151
+#: inc/customizer/options/layout_single_post.php:460
+#: assets/apps/customizer-controls/build/controls.js:1
+msgid "Normal"
+msgstr "Звичайний"
+
+#: inc/customizer/options/buttons.php:200
+#: inc/customizer/options/buttons.php:271
+msgid "Button Appearance"
+msgstr "Вигляд кнопки"
+
+#: header-footer-grid/Core/Components/Button.php:137
+#: header-footer-grid/Core/Components/MenuIcon.php:161
+msgid "Appearance"
+msgstr "Вигляд"
+
+#: header-footer-grid/Core/Components/MenuIcon.php:102
+msgid "Menu label"
+msgstr "Ярлик меню"
+
+#: header-footer-grid/Core/Components/CustomHtml.php:148
+msgid "Arbitrary HTML code. It supports also shortcodes."
+msgstr "Довільний HTML-код. Він також підтримує короткі коди."
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1935
+#: header-footer-grid/Core/Components/Abstract_Component.php:1032
+msgid "Alignment"
+msgstr "Вирівнювання"
+
+#: header-footer-grid/templates/rows.php:78
+msgid "Hide"
+msgstr "Сховати"
+
+#: header-footer-grid/templates/rows.php:77
+msgid "Show"
+msgstr "Показати"
+
+#: header-footer-grid/templates/rows.php:74
+msgid "Mobile menu content"
+msgstr "Вміст мобільного меню"
+
+#: inc/customizer/options/layout_blog.php:341
+msgid "Thumbnail Shadow"
+msgstr "Тінь мініатюри"
+
+#: inc/customizer/options/typography.php:89
+msgid "Body"
+msgstr "Тіло"
+
+#: header-footer-grid/Core/Customizer.php:336
+msgid "Search Components"
+msgstr "Пошук компонентів"
+
+#: header-footer-grid/Core/Components/Logo.php:73
+msgid "Display your company logo here or simply use words to describe your business."
+msgstr "Відобразіть логотип своєї компанії тут або просто опишіть словами свій бізнес."
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1920
+#: header-footer-grid/Core/Components/Abstract_Component.php:1005
+#: inc/customizer/options/layout_single_post.php:256
+msgid "Center"
+msgstr "Центр"
+
+#: header-footer-grid/Core/Builder/Footer.php:69
+msgid "Change Footer Color"
+msgstr "Змінити колір підвалу"
+
+#: header-footer-grid/Core/Builder/Footer.php:65
+msgid "Change Copyright"
+msgstr "Змінити авторські права"
+
+#: header-footer-grid/Core/Builder/Header.php:73
+msgid "Change Menu"
+msgstr "Змінити меню"
+
+#: header-footer-grid/Core/Builder/Header.php:69
+msgid "Change Header Color"
+msgstr "Змінити колір заголовка"
+
+#: header-footer-grid/Core/Builder/Header.php:65
+msgid "Change Logo"
+msgstr "Змінити логотип"
+
+#. translators: 1: builder, 2: builder symbol
+#: header-footer-grid/Core/Builder/Footer.php:59
+msgid "Welcome to the %1$s builder! Click the %2$s button to add a new component or follow the Quick Links."
+msgstr "Вітаємо в конструкторі %1$s! Натисніть кнопку %2$s, щоб завантажити новий компонент, або перейдіть до Quick Links."
+
+#: inc/compatibility/pwa.php:63
+msgid "Oops! Something went wrong."
+msgstr "Ой! Щось пішло не так."
+
+#: inc/compatibility/pwa.php:50
+msgid "Oops! It looks like you&#8217;re offline."
+msgstr "Ой! Схоже, ви не в мережі."
+
+#: inc/admin/dashboard/main.php:429
+msgid "The module allows for an easy way of enabling new awesome Adobe (previous Typekit) Fonts in Neve's Typography options."
+msgstr "Модуль забезпечує простий спосіб включення нових дивовижних шрифтів Adobe (попередній Typekit) у параметрах типографії Neve."
+
+#: inc/admin/dashboard/main.php:428
+msgid "Typekit(Adobe) Fonts"
+msgstr "Typekit(Adobe) Шрифти"
+
+#: inc/admin/dashboard/main.php:423
+msgid "Make your LifterLMS pages look stunning with our PRO design options. Specially created to help you set up your online courses with minimum customizations."
+msgstr "Зробіть свої сторінки LifterLMS приголомшливими за допомогою наших PRO варіантів дизайну. Спеціально створених, щоб допомогти вам налаштувати свої онлайн-курси з мінімальними налаштуваннями."
+
+#: inc/admin/dashboard/main.php:422
+msgid "LifterLMS Booster"
+msgstr "LifterLMS Прискорювач"
+
+#: inc/admin/dashboard/main.php:399
+msgid "Powerful Custom Layouts builder which allows you to easily create your own header, footer or custom content on any of the hook locations available in the theme."
+msgstr "Потужний конструктор користувацьких макетів, який дозволяє легко створювати власну шапку, підвал або користувацький вміст у будь-якому з доступних для хуків теми місці."
+
+#: inc/admin/dashboard/main.php:393
+msgid "The Page Header is the horizontal area that sits directly below the header and contains the page/post title. Easily design an attractive Page Header area using our dedicated builder."
+msgstr "Шапка сторінки - це горизонтальна область, яка розташована безпосередньо під заголовком і містить заголовок сторінки/запису. Легко спроєктуйте привабливу шапку сторінки за допомогою нашого спеціалізованого конструктора."
+
+#: inc/admin/dashboard/main.php:392
+msgid "Page Header Builder"
+msgstr "Конструктор шапки сторінки"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:410
+msgid "Row Background"
+msgstr "Фон рядку"
+
+#. translators: %s link to documentation
+#. translators: %s link to documentation
+#: header-footer-grid/Core/Builder/Footer.php:42
+#: header-footer-grid/Core/Builder/Header.php:45
+msgid "Design your %1$s by dragging, dropping and resizing all the elements in real-time. %2$s."
+msgstr "Створіть свій %1$s шляхом перетягування, встановлення та зміни всіх елементів у режимі реального часу. %2$s."
+
+#: inc/views/partials/post_meta.php:224
+msgid "by"
+msgstr "від"
+
+#: inc/customizer/options/layout_blog.php:439
+#: inc/customizer/options/layout_single_post.php:690
+msgid "Show Author Avatar"
+msgstr "Показувати аватар автора"
+
+#: inc/admin/dashboard/main.php:441
+msgid "Simple but effective module to help you navigate back to the top of the really long pages."
+msgstr "Простий, але ефективний модуль, який допоможе вам повернутися до початку дійсно довгих сторінок."
+
+#: inc/admin/dashboard/main.php:440
+msgid "Scroll To Top"
+msgstr "Догори"
+
+#: inc/admin/dashboard/main.php:435
+msgid "For any developer or agency out there building websites for their own clients, we've made it easy to present the theme as your own."
+msgstr "Для будь-якого розробника чи агентства, що створюють веб-сайти для своїх клієнтів, ми спростили подання теми як власної."
+
+#: inc/admin/dashboard/main.php:434
+msgid "White Label"
+msgstr "Біла мітка"
+
+#: inc/admin/dashboard/main.php:417
+msgid "Wishlist, quick view, video products, advanced reviews, multiple dedicated layouts and many more."
+msgstr "Список бажань, швидкий перегляд, відеотовари, розширені огляди, кілька виділених макетів та багато іншого."
+
+#: inc/admin/dashboard/main.php:417
+msgid "Empower your online store with awesome new features, specially designed for a smooth WooCommerce integration."
+msgstr "Посильте ваш Інтернет-магазин дивовижними новими функціями, спеціально розробленими для плавної інтеграції з WooCommerce."
+
+#: inc/admin/dashboard/main.php:405
+msgid "Sharing, custom article sorting, comments integrations, number of minutes needed to read an article and many more."
+msgstr "Поділитися у соц. мережах, користувацьке сортування статей, інтеграція коментарів, кількість хвилин, необхідних для читання статті та багато іншого."
+
+#: inc/admin/dashboard/main.php:405
+msgid "Give a huge boost to your entire blogging experience with features specially designed for increased user experience."
+msgstr "Надайте величезний імпульс усьому вашому досвіду ведення блогів за допомогою функцій, спеціально розроблених для збільшення досвіду користувачів."
+
+#: inc/admin/dashboard/main.php:387
+msgid "Take the header builder to a new level with new awesome components: socials, contact, breadcrumbs, language switcher, multiple HTML, sticky and transparent menu, page header builder and many more."
+msgstr "Піднесіть конструктор заголовків на новий рівень із новими приголомшливими компонентами: соціальні мережі, контакти, хлібні крихти, перемикач мови, декілька HTML, липке та прозоре меню, конструктор заголовків сторінок та багато іншого."
+
+#: inc/admin/dashboard/main.php:381
+msgid "Neve is fully compatible with Gutenberg, the new WordPress editor and for all of you page builder fans, Neve has full compatibility with Elementor, Beaver Builder, and all the other popular page builders."
+msgstr "Neve повністю сумісна з Gutenberg, новим редактором WordPress, і для всіх шанувальників конструкторів сторінок, Neve має повну сумісність з Elementor, Beaver Builder та всіма іншими популярними конструкторами сторінок."
+
+#: inc/admin/dashboard/main.php:380
+msgid "Page Builder Compatibility"
+msgstr "Сумісність з конструктором сторінок"
+
+#: inc/admin/dashboard/main.php:375
+msgid "Easily build your header and footer by dragging and dropping all the important elements in the real-time WordPress Customizer. More advanced options are available in PRO."
+msgstr "Легко будуйте заголовок і колонтитул, перетягуючи всі важливі елементи в налаштовувачі WordPress в режимі реального часу. Більш просунуті варіанти доступні в PRO."
+
+#: inc/admin/dashboard/main.php:374
+msgid "Header/Footer builder"
+msgstr "Конструктор заголовку/підвалу"
+
+#: inc/customizer/controls/upsell_control.php:95
+msgid "PRO"
+msgstr "Pro"
+
+#: inc/admin/dashboard/main.php:411 inc/customizer/options/upsells.php:102
+msgid "Leverage the true flexibility of Elementor with powerful addons and templates that you can import with just one click."
+msgstr "Використовуйте справжню гнучкість Elementor за допомогою потужних додатків та шаблонів, які можна імпортувати лише одним натиском миші."
+
+#: inc/customizer/options/upsells.php:101
+msgid "Easily create custom headers and footers as well as adding your own custom code or content in any of the hooks locations."
+msgstr "Легко створюйте власні заголовки та колонтитули, а також додавайте власний код або вміст у будь-якому з місць розташування хуків."
+
+#: inc/admin/dashboard/main.php:410 inc/customizer/options/upsells.php:97
+msgid "Elementor Booster"
+msgstr "Прискорювач Elementor-у"
+
+#: inc/customizer/options/upsells.php:96
+msgid "Scroll to Top module"
+msgstr "Модуль \"Догори\""
+
+#: inc/customizer/options/upsells.php:95
+msgid "White Label module"
+msgstr "Модуль Біла мітка"
+
+#: inc/admin/dashboard/main.php:398 inc/customizer/options/upsells.php:94
+msgid "Custom Layouts"
+msgstr "Користувацьке компонування"
+
+#: inc/admin/dashboard/main.php:416 inc/customizer/options/upsells.php:93
+msgid "WooCommerce Booster"
+msgstr "Прискорювач WooCommerce"
+
+#: inc/admin/dashboard/main.php:404 inc/customizer/options/upsells.php:92
+msgid "Blog Booster"
+msgstr "Прискорювач блогу"
+
+#: inc/admin/dashboard/main.php:386 inc/customizer/options/upsells.php:91
+msgid "Header Booster"
+msgstr "Прискорювач шапки"
+
+#: inc/customizer/options/upsells.php:71
+msgid "View PRO Features"
+msgstr "Ознайомитись з особливостями PRO"
+
+#: header-footer-grid/Core/Components/CartIcon.php:176
+#: header-footer-grid/Core/Components/SearchResponsive.php:214
+msgid "Hover Color"
+msgstr "Колір при наведенні"
+
+#: header-footer-grid/Core/Components/CartIcon.php:146
+#: header-footer-grid/Core/Components/SearchResponsive.php:189
+#: inc/customizer/options/form_fields.php:359
+#: inc/customizer/options/layout_single_post.php:468
+#: assets/apps/customizer-controls/build/controls.js:1
+msgid "Color"
+msgstr "Колір"
+
+#: header-footer-grid/Core/Components/Search.php:306
+#: header-footer-grid/Core/Components/SearchResponsive.php:483
+msgid "Background Color"
+msgstr "Колір фону"
+
+#: inc/customizer/options/buttons.php:227
+#: inc/customizer/options/form_fields.php:593
+#: inc/customizer/options/layout_single_post.php:844
+msgid "Secondary"
+msgstr "Вторинний"
+
+#: inc/customizer/options/buttons.php:224
+#: inc/customizer/options/form_fields.php:592
+#: inc/customizer/options/layout_single_post.php:843
+msgid "Primary"
+msgstr "Головна"
+
+#: inc/customizer/options/buttons.php:44
+msgid "Buttons"
+msgstr "Кнопки"
+
+#: header-footer-grid/Core/Settings/Manager.php:190
+#: inc/customizer/options/main.php:149
+#: assets/apps/customizer-controls/build/controls.js:1
+#: assets/apps/customizer-controls/build/controls.js:2
+msgid "Style"
+msgstr "Стиль"
+
+#: header-footer-grid/Core/Components/SecondNav.php:150
+msgid "Select Menu"
+msgstr "Оберіть меню"
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:512
+msgid "Margin"
+msgstr "Зовнішній відступ"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1916
+#: header-footer-grid/Core/Components/Abstract_Component.php:1001
+#: inc/customizer/options/layout_sidebar.php:181
+#: inc/customizer/options/layout_single_post.php:252
+#: assets/apps/customizer-controls/build/controls.js:1
+#: assets/apps/customizer-controls/build/controls.js:2
+#: assets/apps/metabox/build/index.js:1
+msgid "Left"
+msgstr "Зліва"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:2109
+#: inc/customizer/options/layout_single_post.php:310
+#: assets/apps/customizer-controls/build/controls.js:1
+#: assets/apps/customizer-controls/build/controls.js:2
+msgid "Bottom"
+msgstr "Знизу"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1924
+#: header-footer-grid/Core/Components/Abstract_Component.php:1009
+#: inc/customizer/options/layout_sidebar.php:185
+#: inc/customizer/options/layout_single_post.php:260
+#: assets/apps/customizer-controls/build/controls.js:1
+#: assets/apps/customizer-controls/build/controls.js:2
+#: assets/apps/metabox/build/index.js:1
+msgid "Right"
+msgstr "Праворуч"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:2101
+#: inc/customizer/options/layout_single_post.php:302
+#: assets/apps/customizer-controls/build/controls.js:1
+#: assets/apps/customizer-controls/build/controls.js:2
+msgid "Top"
+msgstr "Вгорі"
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:482
+#: inc/customizer/options/buttons.php:83 inc/customizer/options/buttons.php:288
+msgid "Padding"
+msgstr "Внутрішній відступ"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1986
+msgid "Slide from Left"
+msgstr "Виїжджати з ліва"
+
+#: inc/customizer/options/layout_single_product.php:125
+msgid "All"
+msgstr "Всі"
+
+#: inc/customizer/options/layout_single_product.php:92
+msgid "Title"
+msgstr "Заголовок"
+
+#: inc/customizer/options/layout_single_product.php:71
+msgid "Exclusive Products"
+msgstr "Ексклюзивні продукти"
+
+#: inc/compatibility/lifter.php:332
+msgid "Catalog Sidebar"
+msgstr "Бічна колона каталогу"
+
+#: header-footer-grid/Core/Builder/Footer.php:130
+#: header-footer-grid/Core/Builder/Footer.php:142
+msgid "Footer Bottom"
+msgstr "Низ підвалу"
+
+#: header-footer-grid/Core/Builder/Footer.php:122
+#: header-footer-grid/Core/Builder/Footer.php:138
+msgid "Footer Top"
+msgstr "Верх підвалу"
+
+#: header-footer-grid/Core/Builder/Header.php:194
+msgid "Header Bottom"
+msgstr "Низ шапки"
+
+#: header-footer-grid/Core/Builder/Header.php:190
+msgid "Header Main"
+msgstr "Основна шапка"
+
+#: header-footer-grid/Core/Builder/Header.php:186
+msgid "Header Top"
+msgstr "Верх шапки"
+
+#. translators: %s - customizer link
+#: header-footer-grid/templates/components/component-footer-sidebar.php:31
+msgid "Replace this widget content by going to %s and add widgets into this widget area."
+msgstr "Замініть цей вміст віджету, перейшовши до %s та додайте віджети в цю область віджетів."
+
+#: header-footer-grid/Core/Components/Nav.php:215
+msgid "Last Menu Item"
+msgstr "Останній елемент меню"
+
+#: header-footer-grid/Core/Components/Nav.php:139
+msgid "Active Item Color"
+msgstr "Колір активного елементу"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:48
+msgid "Search Icon"
+msgstr "Іконка пошуку"
+
+#: header-footer-grid/Core/Components/Search.php:66
+#: header-footer-grid/Core/Components/SearchResponsive.php:98
+msgid "Placeholder"
+msgstr "Заповнювач"
+
+#: header-footer-grid/Core/Components/Search.php:65
+#: header-footer-grid/Core/Components/Search.php:549
+#: header-footer-grid/Core/Components/SearchResponsive.php:97
+#: header-footer-grid/Core/Components/SearchResponsive.php:790
+#: searchform.php:10 searchform.php:35
+msgid "Search for..."
+msgstr "Шукати..."
+
+#: header-footer-grid/Core/Components/Search.php:42
+msgid "Search Form"
+msgstr "Форма пошуку"
+
+#: header-footer-grid/Core/Components/Nav.php:164
+#: header-footer-grid/Core/Components/NavFooter.php:112
+#: header-footer-grid/Core/Components/SecondNav.php:113
+msgid "Items Hover Color"
+msgstr "Колір елементів при наведенні"
+
+#: header-footer-grid/Core/Components/Nav.php:114
+#: header-footer-grid/Core/Components/NavFooter.php:86
+#: header-footer-grid/Core/Components/SecondNav.php:86
+msgid "Items Color"
+msgstr "Колір елементів"
+
+#: header-footer-grid/Core/Components/SecondNav.php:41
+#: header-footer-grid/Core/Components/SecondNav.php:144
+#: header-footer-grid/templates/components/component-nav-secondary.php:23
+#: inc/core/front_end.php:72
+msgid "Secondary Menu"
+msgstr "Додаткове меню"
+
+#: header-footer-grid/Core/Components/Copyright.php:36
+#: header-footer-grid/Core/Components/Copyright.php:70
+msgid "Copyright"
+msgstr "Авторські права"
+
+#: header-footer-grid/Core/Components/CartIcon.php:45
+msgid "Cart Icon"
+msgstr "Іконка кошика"
+
+#: header-footer-grid/Core/Components/Button.php:106
+msgid "Link"
+msgstr "Посилання"
+
+#: header-footer-grid/Core/Components/Button.php:82
+#: header-footer-grid/Core/Components/Button.php:121
+#: inc/customizer/options/form_fields.php:567
+msgid "Button"
+msgstr "Кнопка"
+
+#: header-footer-grid/Core/Components/Logo.php:133
+msgid "Show Site Tagline"
+msgstr "Показати ключову фразу сайту"
+
+#: header-footer-grid/Core/Components/Logo.php:148
+msgid "Show Site Title"
+msgstr "Показати заголовок сайту"
+
+#: header-footer-grid/Core/Components/Logo.php:72
+msgid "Logo & Site Identity"
+msgstr "Логотип та айдентика сайту"
+
+#: header-footer-grid/Core/Components/MenuIcon.php:78
+msgid "Menu Icon"
+msgstr "Іконка меню"
+
+#: header-footer-grid/Core/Components/CustomHtml.php:35
+#: header-footer-grid/Core/Components/CustomHtml.php:147
+msgid "HTML"
+msgstr "HTML"
+
+#: globals/utilities.php:398 globals/utilities.php:446
+msgid "Dark Mode"
+msgstr "Темний режим"
+
+#: inc/views/pluggable/pagination.php:277
+msgid "next"
+msgstr "наступна"
+
+#: inc/views/pluggable/pagination.php:272
+msgid "previous"
+msgstr "попередня"
+
+#: inc/customizer/options/layout_single_post.php:536
+#: inc/customizer/options/layout_single_post.php:544
+msgid "Post navigation"
+msgstr "Навігація записів"
+
+#. translators: %s - post type
+#. translators: %s - post type
+#: inc/admin/metabox/manager.php:130 inc/admin/metabox/manager.php:147
+msgid "%s Settings"
+msgstr "%s налаштування"
+
+#: inc/core/admin.php:403
+msgid "Return to your dashboard"
+msgstr "Повернутися до Майстерні"
+
+#. translators: %s - theme name
+#: inc/core/admin.php:389
+msgid "%s is now installed and ready to use. We've assembled some links to get you started."
+msgstr "%s тепер встановлена і готова до використання. Ми створили кілька посилань, щоб розпочати роботу."
+
+#: inc/core/admin.php:386
+msgid "Congratulations!"
+msgstr "Вітання!"
+
+#: inc/core/admin.php:409
+msgid "or go to the theme settings"
+msgstr "або перейдіть до налаштувань теми"
+
+#: inc/core/admin.php:398
+msgid "Try one of our ready to use Starter Sites"
+msgstr "Спробуйте одну з наших готових до використання Стартових Сайтів"
+
+#. translators: %s: number of comments
+#: inc/views/partials/post_meta.php:320
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s коментар"
+msgstr[1] "%s коментаря"
+msgstr[2] "%s коментарів"
+
+#: functions.php:38
+msgid "upgrading PHP to the latest version"
+msgstr "оновивши PHP до останньої версії"
+
+#. Template Name of the theme
+msgid "Page Builder Full Width (Neve)"
+msgstr "Конструктор сторінок на всю ширину (Neve)"
+
+#. Theme Name of the theme
+#. translators: Theme Name
+#. translators: Theme Name
+#: inc/admin/troubleshoot/main.php:38 inc/admin/troubleshoot/main.php:79
+#: inc/admin/troubleshoot/main.php:93 inc/admin/troubleshoot/main.php:96
+#: inc/admin/troubleshoot/main.php:102 inc/admin/troubleshoot/main.php:115
+#: assets/apps/metabox/build/index.js:2
+msgid "Neve"
+msgstr "Neve"
+
+#: inc/customizer/options/upsells.php:44 inc/customizer/options/upsells.php:105
+msgid "Get the PRO version!"
+msgstr "Отримати версію ПРО!"
+
+#: inc/core/admin.php:420
+msgid "Sites Library"
+msgstr "Бібліотека сайтів"
+
+#: inc/views/content_404.php:37
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Схоже, що не вдалося знайти те, що ви шукаєте. Можливо допоможе пошук."
+
+#: inc/views/content_none.php:57
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Вибачте, але за вашим пошуковим запитом нічого не знайдено. Будь ласка, спробуйте інші ключові слова."
+
+#: inc/views/content_none.php:39
+msgid "Get started here"
+msgstr "Почніть звідси"
+
+#. translators: %s is Link to new post
+#: inc/views/content_none.php:34
+msgid "Ready to publish your first post? %s."
+msgstr "Готові оприлюднити ваш перший запис? %s."
+
+#: inc/views/template_parts.php:269
+msgid "Read More"
+msgstr "Читати далі"
+
+#: inc/customizer/options/layout_single_post.php:535
+#: inc/customizer/options/layout_single_post.php:543
+#: inc/views/partials/post_meta.php:334 assets/apps/metabox/build/index.js:1
+msgid "Tags"
+msgstr "Позначки"
+
+#. translators: number of comments
+#: inc/views/partials/comments.php:301
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s коментар до &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s коментарі до &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s коментарів до &ldquo;%2$s&rdquo;"
+
+#: inc/views/partials/comments.php:238
+msgid "Comment awaiting moderation."
+msgstr "Коментар очікує на модерацію."
+
+#: inc/views/partials/comments.php:273
+msgid "Reply"
+msgstr "Відповіcти"
+
+#. translators: 1: date, 2: time
+#: inc/views/partials/comments.php:218
+msgid "%1$s at %2$s"
+msgstr "%1$s о %2$s"
+
+#: inc/views/partials/comments.php:184 inc/views/partials/comments.php:267
+#: assets/apps/customizer-controls/build/controls.js:1
+msgid "Edit"
+msgstr "Редагувати"
+
+#: inc/views/partials/comments.php:182
+msgid "Pingback:"
+msgstr "Сповіщення:"
+
+#: inc/views/partials/comments.php:145
+msgid "Next"
+msgstr "Далі"
+
+#: inc/views/partials/comments.php:142
+msgid "Previous"
+msgstr "Назад"
+
+#: inc/views/partials/comments.php:137
+msgid "Comments Navigation"
+msgstr "Навігація по коментарях"
+
+#: inc/views/partials/comments.php:90
+msgid "Comments are closed."
+msgstr "Коментарі закриті."
+
+#. translators: search result
+#: inc/views/page_header.php:78
+msgid "Search Results for: %s"
+msgstr "Результати пошуку за запитом: %s"
+
+#: header-footer-grid/templates/components/component-menu-icon.php:26
+#: header-footer-grid/templates/components/component-menu-icon.php:39
+#: header-footer-grid/templates/row-wrapper-mobile.php:29
+#: header-footer-grid/templates/row-wrapper-mobile.php:39
+msgid "Navigation Menu"
+msgstr "Меню навігації"
+
+#: header-footer-grid/Core/Customizer.php:291
+#: header-footer-grid/templates/components/component-cart-icon.php:26
+#: inc/views/header.php:139 inc/views/layouts/layout_sidebar.php:182
+msgid "Close"
+msgstr "Закрити"
+
+#: header-footer-grid/Core/Components/Search.php:126
+#: header-footer-grid/Core/Components/SearchResponsive.php:303
+#: assets/apps/customizer-controls/build/controls.js:1
+msgid "Font Size"
+msgstr "Розмір шрифту"
+
+#: inc/customizer/options/typography.php:45
+msgid "Headings"
+msgstr "Заголовки"
+
+#: header-footer-grid/Core/Settings/Manager.php:182
+#: inc/customizer/options/buttons.php:63
+#: inc/customizer/options/typography.php:41
+msgid "General"
+msgstr "Загальне"
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:863
+#: inc/customizer/options/main.php:59
+msgid "Typography"
+msgstr "Типографіка"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:615
+#: header-footer-grid/Core/Builder/Header.php:38
+msgid "Header"
+msgstr "Заголовок"
+
+#: inc/customizer/options/layout_single_post.php:568
+msgid "Elements Order"
+msgstr "Порядок елементів"
+
+#: inc/customizer/options/layout_sidebar.php:267
+msgid "Content Width (%)"
+msgstr "Ширина вмісту (%)"
+
+#: inc/customizer/options/layout_sidebar.php:243
+msgid "Sidebar Layout"
+msgstr "Макет бічної колонки"
+
+#: inc/customizer/options/layout_sidebar.php:54
+msgid "Others"
+msgstr "Інші"
+
+#: inc/customizer/options/layout_sidebar.php:69
+#: inc/customizer/options/layout_single_product.php:52
+msgid "Single Product"
+msgstr "Окремий товар"
+
+#: inc/customizer/options/layout_sidebar.php:68
+msgid "Shop / Archive"
+msgstr "Магазин / архів"
+
+#: inc/customizer/options/layout_sidebar.php:49
+#: inc/customizer/options/layout_single_post.php:62
+#: inc/customizer/options/typography.php:312
+msgid "Single Post"
+msgstr "Окремий запис"
+
+#: inc/customizer/options/layout_sidebar.php:156
+msgid "Enable Advanced Options"
+msgstr "Увімкнути розширені налаштування"
+
+#: inc/customizer/options/layout_sidebar.php:133
+msgid "Sitewide Content Width (%)"
+msgstr "Ширина вмісту по всьому сайту (%)"
+
+#: inc/customizer/options/layout_sidebar.php:114
+msgid "Sitewide Sidebar Layout"
+msgstr "Макет бічної колонки по всьому сайту"
+
+#: globals/utilities.php:199 header-footer-grid/Core/Components/Nav.php:189
+#: searchform.php:19 assets/apps/customizer-controls/build/4.js:1
+#: assets/apps/customizer-controls/build/7.js:1
+msgid "Search"
+msgstr "Пошук"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:698
+msgid "Section Content"
+msgstr "Вміст розділу"
+
+#. translators: %1$s is Theme Name ( Neve ), %2$s is WordPress
+#: header-footer-grid/Core/Components/Copyright.php:64
+msgid "%1$s | Powered by %2$s"
+msgstr "%1$s | Створено на %2$s"
+
+#: header-footer-grid/Core/Components/Button.php:122
+#: assets/apps/customizer-controls/build/controls.js:1
+msgid "Text"
+msgstr "Текст"
+
+#: inc/customizer/options/layout_single_product.php:124
+#: assets/apps/customizer-controls/build/controls.js:1
+#: assets/apps/metabox/build/index.js:1
+msgid "None"
+msgstr "Жоден"
+
+#: inc/customizer/options/layout_single_post.php:534
+#: inc/customizer/options/layout_single_post.php:542
+#: assets/apps/metabox/build/index.js:1
+msgid "Content"
+msgstr "Змiст поста"
+
+#: header-footer-grid/Core/Builder/Footer.php:34
+#: header-footer-grid/Core/Builder/Footer.php:76
+msgid "Footer"
+msgstr "Підвал"
+
+#: inc/customizer/options/layout_container.php:121
+msgid "Single Product Container Style"
+msgstr "Стиль контейнеру товару"
+
+#: inc/customizer/options/layout_container.php:117
+msgid "Shop / Archive Container Style"
+msgstr "Стиль контейнеру магазину / архіву"
+
+#: inc/customizer/options/layout_container.php:107
+msgid "Single Post Container Style"
+msgstr "Стиль контейнеру запису"
+
+#: inc/customizer/options/layout_container.php:103
+msgid "Blog / Archive Container Style"
+msgstr "Стиль контейнеру блогу / архіву"
+
+#: inc/customizer/options/layout_container.php:99
+msgid "Default Container Style"
+msgstr "Стиль контейнеру за замовчуванням"
+
+#: inc/customizer/options/layout_blog.php:404
+#: inc/customizer/options/layout_single_post.php:654
+msgid "Meta Order"
+msgstr "Порядок мета-данних"
+
+#: inc/customizer/options/layout_blog.php:392
+#: inc/customizer/options/layout_single_post.php:537
+#: inc/customizer/options/layout_single_post.php:545
+#: inc/customizer/options/layout_single_post.php:642
+#: inc/views/partials/post_meta.php:182 assets/apps/metabox/build/index.js:1
+msgid "Comments"
+msgstr "Коментарі"
+
+#: inc/customizer/options/layout_blog.php:391
+#: inc/customizer/options/layout_single_post.php:641
+#: inc/views/partials/post_meta.php:181
+msgid "Date"
+msgstr "Дата"
+
+#: inc/customizer/options/layout_blog.php:390
+#: inc/customizer/options/layout_single_post.php:640
+#: inc/customizer/options/layout_single_product.php:107
+#: inc/views/partials/post_meta.php:180
+msgid "Category"
+msgstr "Категорія"
+
+#: header-footer-grid/Core/Magic_Tags.php:553
+#: inc/customizer/options/layout_blog.php:389
+#: inc/customizer/options/layout_single_post.php:639
+#: inc/views/partials/post_meta.php:179
+msgid "Author"
+msgstr "Автор"
+
+#: inc/customizer/options/layout_blog.php:301
+msgid "Post Content Order"
+msgstr "Порядок вмісту запису"
+
+#: inc/customizer/options/layout_blog.php:290
+msgid "Excerpt"
+msgstr "Уривок"
+
+#: inc/customizer/options/layout_blog.php:289
+#: inc/customizer/options/layout_single_post.php:532
+#: assets/apps/customizer-controls/build/controls.js:1
+msgid "Title & Meta"
+msgstr "Заголовок та мета-данні"
+
+#: inc/customizer/options/layout_blog.php:288
+#: inc/customizer/options/layout_single_post.php:533
+#: assets/apps/customizer-controls/build/controls.js:1
+msgid "Thumbnail"
+msgstr "Мініатюра"
+
+#: inc/customizer/options/layout_blog.php:274
+msgid "Infinite Scroll"
+msgstr "Безкінечна прокрутка"
+
+#: inc/customizer/options/layout_blog.php:273
+#: inc/customizer/options/layout_blog.php:275
+msgid "Number"
+msgstr "Число"
+
+#: inc/customizer/options/layout_blog.php:268
+msgid "Post Pagination"
+msgstr "Пагінація записів"
+
+#: inc/customizer/options/layout_blog.php:318
+msgid "Excerpt Length"
+msgstr "Довжина уривка"
+
+#: inc/customizer/options/layout_blog.php:230
+msgid "Enable Masonry"
+msgstr "Включити плитку"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:340
+#: header-footer-grid/Core/Settings/Manager.php:186
+#: inc/customizer/options/main.php:54
+msgid "Layout"
+msgstr "Розмітка"
+
+#: inc/customizer/options/typography.php:49
+msgid "Blog"
+msgstr "Блог"
+
+#: inc/customizer/options/layout_blog.php:82
+#: inc/customizer/options/layout_sidebar.php:48
+msgid "Blog / Archive"
+msgstr "Блог / архів"
+
+#: inc/customizer/options/colors_background.php:43
+msgid "Colors & Background"
+msgstr "Кольори та фон"
+
+#. translators: %s is the header name
+#: header-footer-grid/Core/Customizer.php:271
+#: assets/apps/customizer-controls/build/4.js:1
+#: assets/apps/metabox/build/index.js:1
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: header-footer-grid/Core/Components/FooterWidgetFour.php:32
+#: inc/core/front_end.php:361
+msgid "Footer Four"
+msgstr "Четвертий підвал"
+
+#: header-footer-grid/Core/Components/FooterWidgetThree.php:31
+#: inc/core/front_end.php:360
+msgid "Footer Three"
+msgstr "Третій підвал"
+
+#: header-footer-grid/Core/Components/FooterWidgetTwo.php:32
+#: inc/core/front_end.php:359
+msgid "Footer Two"
+msgstr "Другий підвал"
+
+#: header-footer-grid/Core/Components/FooterWidgetOne.php:31
+#: inc/core/front_end.php:358
+msgid "Footer One"
+msgstr "Перший підвал"
+
+#: inc/core/front_end.php:352
+msgid "Shop Sidebar"
+msgstr "Бічна колонка магазину"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:440
+#: header-footer-grid/Core/Components/Copyright.php:84
+#: header-footer-grid/Core/Components/CustomHtml.php:171
+#: header-footer-grid/Core/Components/Logo.php:206
+#: inc/compatibility/elementor.php:117 inc/core/front_end.php:116
+#: inc/customizer/options/layout_blog.php:177
+#: assets/apps/customizer-controls/build/controls.js:1
+#: assets/apps/metabox/build/index.js:1
+msgid "Text Color"
+msgstr "Колір тексту"
+
+#. translators: %s - Theme name
+#: inc/admin/dashboard/main.php:207
+msgid "With %s, you can choose from multiple unique demos, specially designed for you, that can be installed with a single click. You just need to choose your favorite, and we will take care of everything else."
+msgstr "З %s, ви можете вибрати з декількох унікальних демо, спеціально розроблених для вас, які можна встановити одним натиском кнопки. Вам просто потрібно вибрати вашу улюблену, а про все інше ми подбаємо."
+
+#: header-footer-grid/Core/Components/NavFooter.php:41
+#: header-footer-grid/Core/Components/NavFooter.php:146
+#: header-footer-grid/templates/components/component-nav-footer.php:23
+#: inc/core/front_end.php:71
+msgid "Footer Menu"
+msgstr "Меню в підвалі"
+
+#: header-footer-grid/Core/Components/Nav.php:43
+#: header-footer-grid/Core/Components/Nav.php:233
+#: header-footer-grid/templates/components/component-nav.php:26
+#: inc/core/front_end.php:70
+msgid "Primary Menu"
+msgstr "Головне меню"
+
+#: inc/admin/dashboard/main.php:341
+#: inc/customizer/options/layout_sidebar.php:95
+msgid "Content / Sidebar"
+msgstr "Вміст / Бічна колонка"
+
+#: inc/admin/dashboard/main.php:337
+msgid "Footer Options"
+msgstr "Параметри підвалу сайту"
+
+#: inc/admin/dashboard/main.php:333
+msgid "Blog Layouts"
+msgstr "Макети блогу"
+
+#: inc/admin/dashboard/main.php:329
+msgid "Header Options"
+msgstr "Налаштування заголовку"
+
+#: inc/admin/dashboard/main.php:325
+msgid "Layout Options"
+msgstr "Параметри розміщення"
+
+#: inc/admin/dashboard/main.php:321
+msgid "Customize Fonts"
+msgstr "Налаштуйте шрифти"
+
+#: inc/admin/dashboard/main.php:317
+msgid "Set Colors"
+msgstr "Встановіть кольори"
+
+#: inc/admin/dashboard/main.php:313
+msgid "Upload Logo"
+msgstr "Завантажте логотип"
+
+#: header-footer-grid/Core/Builder/Footer.php:49
+#: header-footer-grid/Core/Builder/Header.php:52 inc/core/admin.php:433
+msgid "Read full documentation"
+msgstr "Читати повну документацію"
+
+#. translators: %s - Theme name
+#. translators: %s - Theme name
+#: inc/admin/dashboard/main.php:215 inc/core/admin.php:430
+msgid "Need more details? Please check our full documentation for detailed information on how to use %s."
+msgstr "Вам потрібна додаткова інформація? Будь ласка, перегляньте нашу повну документацію, щоб отримати докладнішу інформацію про те, як використовувати %s."
+
+#. translators: %s - Theme name
+#: inc/admin/dashboard/main.php:213
+msgid "We want to make sure you have the best experience using %1$s, and that is why we have gathered all the necessary information here for you. We hope you will enjoy using %1$s as much as we enjoy creating great products."
+msgstr "Ми хочемо переконатися, що ви отримаєте найкращий досвід використання %1$s, і саме тому ми зібрали всю необхідну інформацію для вас. Ми сподіваємось, що Ви будете насолоджуватися використанням %1$s так само, як ми насолоджуємося створенням чудових продуктів."
+
+#: inc/core/admin.php:428 assets/apps/dashboard/build/dashboard.js:1
+msgid "Documentation"
+msgstr "Документатція"
+
+#. translators: %s - Theme name
+#. translators: %s - Theme name
+#: inc/admin/dashboard/main.php:205 inc/core/admin.php:422
+msgid "%s now comes with a sites library with various designs to pick from. Visit our collection of demos that are constantly being added."
+msgstr "%s зараз поставляється з бібліотекою сайтів з різними дизайнами, щоб вибрати з них. Відвідайте нашу колекцію демонстраційних матеріалів, які постійно додаються."
+
+#: header-footer-grid/Core/Components/Nav.php:194
+#: header-footer-grid/Core/Magic_Tags.php:608
+#: header-footer-grid/templates/components/component-cart-icon.php:50
+#: inc/views/header.php:178
+msgid "Cart"
+msgstr "Кошик"
+
+#: inc/compatibility/woocommerce.php:438
+msgid "Filter"
+msgstr "Фільтрувати"
+
+#: inc/admin/metabox/main.php:78 inc/core/front_end.php:351
+#: assets/apps/metabox/build/index.js:1
+msgid "Sidebar"
+msgstr "Бічна колонка"
+
+#: inc/admin/metabox/main.php:76
+msgid "No Sidebar"
+msgstr "Без бічної колонки"
+
+#: inc/admin/metabox/main.php:75
+msgid "Right Sidebar"
+msgstr "Права бічна колонка"
+
+#: inc/admin/metabox/main.php:74
+msgid "Left Sidebar"
+msgstr "Ліва бічна колонка"
+
+#: inc/admin/metabox/main.php:56 inc/customizer/options/layout_container.php:43
+#: assets/apps/metabox/build/index.js:1
+msgid "Container"
+msgstr "Контейнер"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:345
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:346
+#: inc/admin/metabox/main.php:54
+#: inc/customizer/options/layout_container.php:143
+#: inc/customizer/options/layout_sidebar.php:177
+#: assets/apps/metabox/build/index.js:1
+msgid "Full Width"
+msgstr "Повна ширина"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:345
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:347
+#: inc/admin/metabox/main.php:53
+#: inc/customizer/options/layout_container.php:142
+#: inc/customizer/options/layout_single_post.php:499
+#: assets/apps/metabox/build/index.js:1
+msgid "Contained"
+msgstr "Обмеженний"
+
+#: inc/admin/metabox/main.php:52 inc/admin/metabox/main.php:73
+msgid "Customizer Setting"
+msgstr "Налаштунки налаштовувача"
+
+#: inc/admin/metabox/main.php:110 assets/apps/metabox/build/index.js:1
+msgid "Disable Footer"
+msgstr "Вимкнути підвал"
+
+#: inc/admin/metabox/main.php:104
+msgid "Disable Featured Image"
+msgstr "Вимкнути головне зображення"
+
+#: inc/admin/metabox/main.php:98 assets/apps/metabox/build/index.js:1
+msgid "Disable Title"
+msgstr "Прихавати заголовок"
+
+#: inc/admin/metabox/main.php:93 assets/apps/metabox/build/index.js:1
+msgid "Disable Header"
+msgstr "Приховати шапку"
+
+#: inc/admin/metabox/main.php:92
+msgid "Components"
+msgstr "Компоненти"
+
+#: inc/admin/metabox/main.php:159
+msgid "Enable Individual Content Width"
+msgstr "Увімкнути індивідуальну ширину вмісту"
+
+#: inc/admin/metabox/main.php:158
+msgid "Content Width"
+msgstr "Ширина вмісту"
+
+#: header.php:80
+msgid "Skip to content"
+msgstr "Перейти до вмісту"
+
+#. translators: %s message to upgrade PHP to the latest version
+#: functions.php:34
+msgid "Hey, we've noticed that you're running an outdated version of PHP which is no longer supported. Make sure your site is fast and secure, by %1$s. Neve's minimal requirement is PHP%2$s."
+msgstr "Привіт, ми помітили, що ви використовуєте застарілу версію PHP, яка більше не підтримується. Переконайтеся, що ваш сайт швидкий та безпечний, %1$s. Мінімальна вимога Neve - PHP%2$s."
+
+#. Author URI of the theme
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Author of the theme
+msgid "ThemeIsle"
+msgstr "Themeisle"
+
+#. Theme URI of the theme
+msgid "https://themeisle.com/themes/neve/"
+msgstr "https://themeisle.com/themes/neve/"
