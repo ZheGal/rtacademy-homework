@@ -19,15 +19,8 @@
         </div>
 
         <div class="posts">
-            <ul class="head">
-                <li><a href="#">Освіта</a></li>
-                <li><a href="#">Натхнення</a></li>
-                <li><a href="#">Спосіб життя</a></li>
-                <li><a href="#">Природа</a></li>
-                <li><a href="#">Подорожі</a></li>
-                <li><a href="#">Робота</a></li>
-            </ul>
-        
+            <?php get_all_categories_list(); ?>
+
         <?php
         if( have_posts() ) {?>
         <ul class="posts-list" id="postsList">
@@ -37,12 +30,13 @@
                 <li id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                     <a href="<?= esc_url( get_permalink() ) ?>">
                         <div class="cover">
-                            <img src="<?= get_template_directory_uri() ?>/images/501.jpg" alt="">
+                            <?php get_cover_list_tag() ?>
                         </div>
                         <div class="data">
                             <div class="info">
                                 <span class="author"><?php the_author(); ?></span>
-                                <span class="date"><?php the_date(); ?></span>
+                                <span class="date"><?php get_posting_time(); ?></span>
+                                <?php get_post_category(); ?>
                             </div>
                             <h3 class="post-title"><?= the_title(); ?></h3>
                             <p class="desc"><?php the_excerpt() ?></p>
@@ -52,15 +46,13 @@
                 <?php
             }?>
         </ul>
-        <?php } else {
-            echo 'Пости відсутні';
+        <?php } else { ?>
+            <div class="main_posts_empty">
+                <h2>Записи на сайті відусутні</h2>
+            </div>
+        <?php
         }
         ?>
-            
-
-            <div class="more-posts-button">
-                <a href="#" id="morePostsButton">Більше записів</a>
-            </div>
         </div>
 
         <div class="more-posts">
@@ -191,36 +183,8 @@
         </div>
 
         <div class="authors">
-            <h5 class="stroke"><span>Автори</span></h5>
-            <ul class="authors-list">
-                <li class="author-card">
-                    <div class="photo">
-                        <img src="<?= get_template_directory_uri() ?>/images/authors/01.jpg" alt="Софія Горбунова">
-                    </div>
-                    <div class="author-data">
-                        <div class="name">Софія Горбунова</div>
-                        <div class="desc">Автор та розробник теми оформлення.</div>
-                    </div>
-                </li>
-                <li class="author-card">
-                    <div class="photo">
-                        <img src="<?= get_template_directory_uri() ?>/images/authors/02.jpg" alt="Артем Зайцев">
-                    </div>
-                    <div class="author-data">
-                        <div class="name">Артем Зайцев</div>
-                        <div class="desc">Автор текстів та статей.</div>
-                    </div>
-                </li>
-                <li class="author-card">
-                    <div class="photo">
-                        <img src="<?= get_template_directory_uri() ?>/images/authors/03.jpg" alt="Іван Маркін">
-                    </div>
-                    <div class="author-data">
-                        <div class="name">Іван Маркін</div>
-                        <div class="desc">Розробник сайту.</div>
-                    </div>
-                </li>
-            </ul>
+            <?php print_authors();?>
         </div>
+            
 
 <?php get_footer(); ?>

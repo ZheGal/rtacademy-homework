@@ -841,6 +841,11 @@ img.preview {
     left: 12px;
 }
 
+.main_posts_empty {
+    padding: 5rem 0 8rem;
+    text-align: center;
+}
+
 @keyframes lds-roller {
     0% {
         transform: rotate(0deg);
